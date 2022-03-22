@@ -5,10 +5,10 @@ import bannerimg from '../../assets/programmingBanner.jpg'
 
 const BannerHeader = () => (
   <div className="BannerHeader">
-    <img src={bannerimg} />
-    <div>Hello, my name is</div>
-    <div>Ryan Magilton</div>
-    <div>Computer Science, Game Development, Web Development</div>
+    <img className='bannerImg' src={bannerimg} />
+    <div className='banner1'>Hello, my name is</div>
+    <div className='banner2'>Ryan Magilton</div>
+    <div className='banner3'>Computer Science, Game Development, Web Development</div>
   </div>
 );
 
