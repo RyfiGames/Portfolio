@@ -1,2 +1,10 @@
 .Home {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: xxx-large;
+  color: white;
 }

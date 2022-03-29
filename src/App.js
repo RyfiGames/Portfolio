@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Route, Link, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 
@@ -17,7 +17,7 @@ class App extends React.Component {
                 </Route>
             </Routes>
         </BrowserRouter>
-            );
+      );
   }
 }
 

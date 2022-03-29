@@ -1,27 +1,14 @@
-import '../../App.css';
+import './Home.css';
 import React from 'react';
-import logo from '../../logo.svg';
 import BannerHeader from '../BannerHeader/BannerHeader';
+import NavBar from '../NavBar/NavBar';
 
 class Home extends React.Component {
     render() {
         return (
-            <div className="App">
+            <div className="Home">
                 <BannerHeader />
-                <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-                </header>
+                <h1>Technologies I Use</h1>
             </div>
             
         );
