@@ -8,3 +8,45 @@ h1 {
   font-size: xxx-large;
   color: white;
 }
+
+.sortHeader {
+  text-align: center;
+  font-size: x-large;
+  color: white;
+  padding: 5px;
+}
+
+.sortTags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: #1d1f24;
+  padding: 15px 25%;
+  flex-wrap: wrap;
+}
+
+.sortButton {
+  background-color: rgb(73, 73, 73);
+  border-radius: 25px;
+  padding: 6px 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #1d1f24;
+  padding: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+}
+
+.contact {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.contact a {
+  color: wheat;
+}
