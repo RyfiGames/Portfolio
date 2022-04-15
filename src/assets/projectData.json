@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "name": "My Portfolio",
+            "shortDesc":"This website",
+            "longDesc":"This website but longer",
+            "tags": [
+                "Web Development",
+                "ReactJS",
+                "JavaScript"
+            ],
+            "shortTags": 2
+        },
+        {
+            "name": "Doortal",
+            "shortDesc":"A puzzle game",
+            "longDesc":"A puzzle game but longer",
+            "tags": [
+                "Game Development",
+                "Unity3D",
+                "C#"
+            ],
+            "shortTags": 3
+        }
+    ],
+    "projectTypes": [
+        "Application",
+        "Game Development",
+        "Web Development",
+        "API",
+        "School Work"
+    ],
+    "tagsList": [
+        "C#",
+        "Java",
+        "JavaScript",
+        "Python",
+        "Unity3D",
+        "ReactJS",
+        "React Native",
+        "ExpressJS",
+        "VS Code",
+        "IntelliJ",
+        "Git"
+    ]
+}

@@ -22,7 +22,9 @@ h1 {
   justify-content: center;
   gap: 20px;
   background-color: #1d1f24;
-  padding: 15px 25%;
+  padding: 15px 1%;
+  margin: 0px 20%;
+  border-radius: 30px;
   flex-wrap: wrap;
 }
 
@@ -32,21 +34,13 @@ h1 {
   padding: 6px 15px;
   color: white;
   font-size: 20px;
+  cursor: pointer;
 }
 
-.footer {
-  background-color: #1d1f24;
-  padding: 15px;
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   flex-wrap: wrap;
-  text-align: center;
-  color: white;
-}
-
-.contact {
-  font-size: 25px;
-  padding: 5px;
-}
-
-.contact a {
-  color: wheat;
+  padding: 20px 10px;
 }

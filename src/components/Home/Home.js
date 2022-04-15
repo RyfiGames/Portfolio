@@ -1,47 +1,58 @@
 import './Home.css';
-import React from 'react';
+import {Component} from 'react';
 import BannerHeader from '../BannerHeader/BannerHeader';
-import NavBar from '../NavBar/NavBar';
+import Footer from '../Footer/Footer';
+import ProjectCard from '../ProjectCard/ProjectCard';
+import ProjectDataList from '../../assets/projectData.json';
 
-class Home extends React.Component {
+class Home extends Component {
+    
+    projectDOM = [];
+
+    typeTagsDOM = [];
+    tagsListDOM = [];
+    selectedTypes = [];
+    selectedTags = [];
+
+    constructor(props) {
+        super(props);
+        for (let proj of ProjectDataList.projects) {
+            this.projectDOM.push(<ProjectCard key={proj.name} project={proj} />);
+        }
+        for (let tag of ProjectDataList.projectTypes) {
+            this.typeTagsDOM.push(<span className='sortButton' key={tag} onClick={() => this.filterTag(tag, true)}>{tag}</span>);
+        }
+        for (let tag of ProjectDataList.tagsList) {
+            this.tagsListDOM.push(<span className='sortButton' key={tag} onClick={() => this.filterTag(tag, false)}>{tag}</span>);
+        }
+    }
+
+    filterTag(tag, isType) {
+    }
+
     render() {
         return (
             <div className="Home">
                 <BannerHeader />
                 <h1>My Work</h1>
-                <div className='sortHeader'>Sort By:</div>
+                {/* <div className='sortHeader'>Sort By:</div>
                 <div className='sortTags'>
                     <span className='sortButton'>Relevance</span>
                     <span className='sortButton'>Most Recent</span>
                     <span className='sortButton'>Least Recent</span>
-                </div>
-                <div className='sortHeader'>By Project Type</div>
+                </div> */}
+                <div className='sortHeader'>Sort by Project Type</div>
                 <div className='sortTags'>
-                    <span className='sortButton'>Application</span>
-                    <span className='sortButton'>Game Development</span>
-                    <span className='sortButton'>Web Development</span>
-                    <span className='sortButton'>API</span>
-                    <span className='sortButton'>School Work</span>
+                    { this.typeTagsDOM }
                 </div>
-                <div className='sortHeader'>By Technology:</div>
+                <div className='sortHeader'>Or by Technologies I Use</div>
                 <div className='sortTags'>
-                    <span className='sortButton'>C#</span>
-                    <span className='sortButton'>Java</span>
-                    <span className='sortButton'>JavaScript</span>
-                    <span className='sortButton'>Python</span>
-                    <span className='sortButton'>Unity3D</span>
-                    <span className='sortButton'>ReactJS</span>
-                    <span className='sortButton'>React Native</span>
-                    <span className='sortButton'>ExpressJS</span>
-                    <span className='sortButton'>VSCode</span>
-                    <span className='sortButton'>IntelliJ</span>
-                    <span className='sortButton'>Git</span>
+                    { this.tagsListDOM }
                 </div>
-                <div className='projectContainer'>a</div>
-                <div className='footer'>
-                    <div className='contact'>Get in touch at <a href='mailto:ramagilton18@hotmail.com'>ramagilton18@hotmail.com</a></div>
-                    <div className='copyright'>© Ryan Magilton 2022</div>
+                <div className='projectContainer'>
+                    {this.projectDOM}
                 </div>
+                <Footer/>
             </div>
             
         );
@@ -50,3 +61,14 @@ class Home extends React.Component {
 }
 
 export default Home;
+
+class ProjectData {
+    name;
+    desc;
+    tags;
+    constructor(name, desc, ...tags) {
+        this.name = name;
+        this.desc = desc;
+        this.tags = tags;
+    }
+}

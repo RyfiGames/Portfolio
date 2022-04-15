@@ -1,0 +1,53 @@
+.ProjectCard {
+    height: 300px;
+    width: 450px;
+    background-color: #141820;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 310px;
+    height: 120px;
+    position: relative;
+    transform: translate(135px, 10px);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.desc {
+    padding: 10px;
+    transform: translate(0px, 10px);
+    height: 100px;
+    font-size: 25px;
+}
+
+.tagContainer {
+    transform: translate(0px, 15px);
+    display: flex;
+    gap: 5px;
+    margin: 0px 10px;
+}
+
+.tag {
+    background-color: rgb(73, 73, 73);
+    border-radius: 25px;
+    padding: 6px 15px;
+    color: white;
+    font-size: 15px;
+}

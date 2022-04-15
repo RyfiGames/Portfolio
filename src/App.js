@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact';
 
 class App extends React.Component {
   render() {
+    document.title = "Ryan Magilton";
       return (
         <BrowserRouter>
             <Routes>

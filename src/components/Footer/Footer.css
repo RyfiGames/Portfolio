@@ -1,0 +1,16 @@
+.footer {
+    background-color: #1d1f24;
+    padding: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.contact a {
+    color: wheat;
+}
