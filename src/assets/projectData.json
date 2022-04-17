@@ -2,25 +2,66 @@
     "projects": [
         {
             "name": "My Portfolio",
-            "shortDesc":"This website",
-            "longDesc":"This website but longer",
+            "path": "project/portfolio",
+            "shortDesc":"This website, including the sorting functionality, routing, generating pages from a JSON file, and more.",
+            "longDesc":"",
             "tags": [
                 "Web Development",
                 "ReactJS",
-                "JavaScript"
+                "JavaScript",
+                "VS Code",
+                "Git"
             ],
-            "shortTags": 2
+            "shortTags": 2,
+            "icon": "RM-Logo.png"
         },
         {
             "name": "Doortal",
-            "shortDesc":"A puzzle game",
-            "longDesc":"A puzzle game but longer",
+            "path": "project/doortal",
+            "shortDesc":"A puzzle game that bends reality. What is on the other side of a door depends on what shape you put in.",
+            "longDesc":"",
             "tags": [
                 "Game Development",
                 "Unity3D",
-                "C#"
+                "C#",
+                "VS Code",
+                "Git"
             ],
-            "shortTags": 3
+            "shortTags": 3,
+            "icon": "DoortalLogo.png"
+        },
+        {
+            "name": "UN Committee Assigner",
+            "path": "project/un-committee-assigner",
+            "shortDesc":"A program that accepts TSV files and assigns delegates to committies.",
+            "longDesc":"",
+            "tags": [
+                "Application",
+                "NodeJS",
+                "JavaScript",
+                "VS Code",
+                "Git"
+            ],
+            "shortTags": 2,
+            "icon": ""
+        },
+        {
+            "name": "Code Collab",
+            "path": "project/code-collab",
+            "shortDesc":"A website where users can upload code and get live feedback from others.",
+            "longDesc":"",
+            "tags": [
+                "Web Development",
+                "Angular",
+                "TypeScript",
+                "JavaScript",
+                "Websockets",
+                "ExpressJS",
+                "VS Code",
+                "Git"
+            ],
+            "shortTags": 3,
+            "icon": "CodeCollabLogo.png"
         }
     ],
     "projectTypes": [
@@ -38,6 +79,7 @@
         "Unity3D",
         "ReactJS",
         "React Native",
+        "Angular",
         "ExpressJS",
         "VS Code",
         "IntelliJ",

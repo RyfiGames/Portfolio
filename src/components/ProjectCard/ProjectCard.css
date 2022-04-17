@@ -5,6 +5,11 @@
     color: white;
     border-radius: 30px;
     position: relative;
+    cursor: pointer;
+}
+
+.ProjectCard:hover {
+    background-color: #15213a;
 }
 
 .icon {

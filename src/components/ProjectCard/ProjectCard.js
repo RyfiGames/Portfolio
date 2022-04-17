@@ -4,6 +4,11 @@ import './ProjectCard.css';
 import logo from '../../assets/RM-Logo.png'
 
 const ProjectCard = (props) => {
+  let icon = logo;
+  if (props.project.icon != null && props.project.icon != "") {
+    icon = 'images/' + props.project.icon;
+  }
+
   let tags = [];
   for (let x in props.project.tags) {
     if (x == props.project.shortTags) break;
@@ -18,8 +23,8 @@ const ProjectCard = (props) => {
     tags.push(tagDOM);
   }
   return (
-    <div className="ProjectCard">
-      <img src={logo} className='icon' />
+    <div className="ProjectCard" onClick={() => console.log(props.project.path)}>
+      <img src={icon} className='icon' />
       <div className='name'>{ props.project.name }</div>
       <div className='desc'>{ props.project.shortDesc }</div>
       <div className='tagContainer'>
