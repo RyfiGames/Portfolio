@@ -17,17 +17,48 @@ class Home extends Component {
     constructor(props) {
         super(props);
         for (let proj of ProjectDataList.projects) {
-            this.projectDOM.push(<ProjectCard key={proj.name} project={proj} />);
+            this.projectDOM.push(<ProjectCard key={proj.name} project={proj} importantTags={[]}/>);
         }
-        for (let tag of ProjectDataList.projectTypes) {
-            this.typeTagsDOM.push(<span className='sortButton' key={tag} onClick={() => this.filterTag(tag, true)}>{tag}</span>);
+        for (let tagID in ProjectDataList.projectTypes) {
+            let tag = ProjectDataList.projectTypes[tagID];
+            this.typeTagsDOM.push(<span className='sortButton' key={'type' + tagID} onClick={() => this.filterTag(tagID, true)}>{tag}</span>);
+            this.selectedTypes[tagID] = false;
         }
-        for (let tag of ProjectDataList.tagsList) {
-            this.tagsListDOM.push(<span className='sortButton' key={tag} onClick={() => this.filterTag(tag, false)}>{tag}</span>);
+        for (let tagID in ProjectDataList.tagsList) {
+            let tag = ProjectDataList.tagsList[tagID];
+            this.tagsListDOM.push(<span className='sortButton' key={'tag'+tagID} onClick={() => this.filterTag(tagID, false)}>{tag}</span>);
+            this.selectedTags[tagID] = false;
         }
     }
 
-    filterTag(tag, isType) {
+    filterTag(tagID, isType) {
+        if (isType) {
+            let tag = ProjectDataList.projectTypes[tagID];
+            let selected = !this.selectedTypes[tagID];
+            this.selectedTypes[tagID] = selected;
+            if (selected) {
+                this.typeTagsDOM[tagID] = <span className='sortButton' style={{ backgroundColor: '#357CFF' }} key={'type' + tagID} onClick={() => this.filterTag(tagID, true)}>{tag}</span>;
+            } else {
+                this.typeTagsDOM[tagID] = <span className='sortButton' key={'type' + tagID} onClick={() => this.filterTag(tagID, true)}>{tag}</span>;
+            }
+        } else {
+            let tag = ProjectDataList.tagsList[tagID];
+            let selected = !this.selectedTags[tagID];
+            this.selectedTags[tagID] = selected;
+            if (selected) {
+                this.tagsListDOM[tagID] = <span className='sortButton' style={{ backgroundColor: '#357CFF' }} key={'tag' + tagID} onClick={() => this.filterTag(tagID, false)}>{tag}</span>;
+            } else {
+                this.tagsListDOM[tagID] = <span className='sortButton' key={'tag' + tagID} onClick={() => this.filterTag(tagID, false)}>{tag}</span>;
+            }
+        }
+
+        this.projectDOM = [];
+        for (let proj of ProjectDataList.projects) {
+            this.projectDOM.push(<ProjectCard key={proj.name} project={proj} importantTags={[]}/>);
+        }
+
+        // Re-render
+        this.forceUpdate();
     }
 
     render() {
