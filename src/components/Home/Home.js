@@ -16,9 +16,7 @@ class Home extends Component {
 
     constructor(props) {
         super(props);
-        for (let proj of ProjectDataList.projects) {
-            this.projectDOM.push(<ProjectCard key={proj.name} project={proj} importantTags={[]}/>);
-        }
+        this.addAllProjects();
         for (let tagID in ProjectDataList.projectTypes) {
             let tag = ProjectDataList.projectTypes[tagID];
             this.typeTagsDOM.push(<span className='sortButton' key={'type' + tagID} onClick={() => this.filterTag(tagID, true)}>{tag}</span>);
@@ -28,6 +26,12 @@ class Home extends Component {
             let tag = ProjectDataList.tagsList[tagID];
             this.tagsListDOM.push(<span className='sortButton' key={'tag'+tagID} onClick={() => this.filterTag(tagID, false)}>{tag}</span>);
             this.selectedTags[tagID] = false;
+        }
+    }
+
+    addAllProjects() {
+        for (let proj of ProjectDataList.projects) {
+            this.projectDOM.push(<ProjectCard key={proj.name} project={proj} importantTags={[]} />);
         }
     }
 
@@ -52,13 +56,42 @@ class Home extends Component {
             }
         }
 
-        this.projectDOM = [];
-        for (let proj of ProjectDataList.projects) {
-            this.projectDOM.push(<ProjectCard key={proj.name} project={proj} importantTags={[]}/>);
-        }
+        this.filterProjects();
 
         // Re-render
         this.forceUpdate();
+    }
+
+    filterProjects() {
+        this.projectDOM = [];
+
+        let filterTags = [];
+        for (let i in ProjectDataList.projectTypes) {
+            if (this.selectedTypes[i])
+                filterTags.push(ProjectDataList.projectTypes[i]);
+        }
+        for (let i in ProjectDataList.tagsList) {
+            if (this.selectedTags[i])
+                filterTags.push(ProjectDataList.tagsList[i]);
+        }
+
+        if (filterTags.length == 0) {
+            this.addAllProjects();
+            return;
+        }
+
+        let filteredProjects = ProjectDataList.projects.filter(proj => {
+            return (
+                proj.tags.filter(tag => {
+                    return filterTags.includes(tag);
+                }).length > 0
+            );
+        });
+
+
+        for (let proj of filteredProjects) {
+            this.projectDOM.push(<ProjectCard key={proj.name} project={proj} importantTags={filterTags}/>);
+        }
     }
 
     render() {

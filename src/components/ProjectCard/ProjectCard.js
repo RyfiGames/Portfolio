@@ -8,7 +8,14 @@ const ProjectCard = (props) => {
   for (let x in props.project.tags) {
     if (x == props.project.shortTags) break;
     let key = props.project.name + 'tag' + x;
-    tags.push(<span className='tag' key={key}>{props.project.tags[x]}</span>);
+    const tagString = props.project.tags[x];
+    let tagDOM;
+    if (props.importantTags.includes(tagString)) {
+      tagDOM = <span className='tag' key={key} style={{ backgroundColor: '#357CFF' }}>{props.project.tags[x]}</span>;
+    } else {
+      tagDOM = <span className='tag' key={key}>{props.project.tags[x]}</span>;
+    }
+    tags.push(tagDOM);
   }
   return (
     <div className="ProjectCard">
