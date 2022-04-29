@@ -1,0 +1,71 @@
+.ProjectPage {
+    background-color: #282c34;
+    min-height: 100vh;
+}
+
+.header {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    margin: 0px 20%;
+}
+
+.projDesc {
+    color: white;
+    padding: 5px;
+    background-color: #1d1f24;
+    padding: 15px 1%;
+    margin: 0px 20%;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.projectTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1d1f24;
+    padding: 15px 1%;
+    margin: 0px 20%;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.listTag {
+    background-color: rgb(0, 73, 207);
+    border-radius: 25px;
+    padding: 6px 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vw;
+    padding: 15px 1%;
+    margin: 0px 10%;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.imageBox {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.exImage {
+}
+
+.caption {
+    color: white;
+    font-size: x-large;
+}

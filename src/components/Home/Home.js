@@ -4,6 +4,7 @@ import BannerHeader from '../BannerHeader/BannerHeader';
 import Footer from '../Footer/Footer';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import ProjectDataList from '../../assets/projectData.json';
+import bannerimg from '../../assets/programmingBanner.jpg'
 
 class Home extends Component {
     
@@ -97,7 +98,15 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <BannerHeader />
+                <BannerHeader
+                    big={ true }
+                    img={ bannerimg }
+                    titles={[
+                        'Hello, my name is',
+                        'Ryan Magilton',
+                        'Computer Science, Game Development, Web Development'
+                    ]}
+                    links={[]} />
                 <h1>My Work</h1>
                 {/* <div className='sortHeader'>Sort By:</div>
                 <div className='sortTags'>

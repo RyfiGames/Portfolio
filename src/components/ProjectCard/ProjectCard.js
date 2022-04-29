@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 import './ProjectCard.css';
 import logo from '../../assets/RM-Logo.png'
 
@@ -22,8 +23,11 @@ const ProjectCard = (props) => {
     }
     tags.push(tagDOM);
   }
+
+  let navigate = useNavigate();
+
   return (
-    <div className="ProjectCard" onClick={() => console.log(props.project.path)}>
+    <div className="ProjectCard" onClick={() => navigate(`/${props.project.path}`)}>
       <img src={icon} className='icon' />
       <div className='name'>{ props.project.name }</div>
       <div className='desc'>{ props.project.shortDesc }</div>
