@@ -5,8 +5,12 @@
 
 .iframe {
     position: fixed;
+    height: calc(100vh - 75px);
     width: 100vw;
-    height: 100vh;
     margin: 0px;
     padding: 0px;
+}
+
+.spacer2 {
+    height: 75px;
 }

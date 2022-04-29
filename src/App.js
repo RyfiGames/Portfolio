@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Route, Routes, BrowserRouter, useParams } from "react-router-dom";
+import { Route, Routes, BrowserRouter, useParams, useSearchParams } from "react-router-dom";
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Resume from './components/Resume/Resume';
@@ -22,7 +22,7 @@ class App extends React.Component {
                 </Route>
                 <Route path="/resume" element={ <Resume /> }>
                 </Route>
-                <Route path="/project/:id" element={ <LoadProjectPage /> }>
+                <Route path="/project" element={ <ProjectPage /> }>
                 </Route>
             </Routes>
         </BrowserRouter>
@@ -33,7 +33,7 @@ class App extends React.Component {
 export default App;
 
 function LoadProjectPage() {
-  let { id } = useParams();
+  let { id } = useSearchParams();
   let projectData = null;
   for (let proj of projectsData.projects) {
     if (proj.path == `project/${id}`) {

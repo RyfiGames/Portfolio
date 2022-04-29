@@ -27,7 +27,10 @@ const ProjectCard = (props) => {
   let navigate = useNavigate();
 
   return (
-    <div className="ProjectCard" onClick={() => navigate(`/${props.project.path}`)}>
+    <div className="ProjectCard" onClick={() => {
+      navigate(`/${props.project.path}`);
+      window.scrollTo(0, 0);
+    }}>
       <img src={icon} className='icon' />
       <div className='name'>{ props.project.name }</div>
       <div className='desc'>{ props.project.shortDesc }</div>

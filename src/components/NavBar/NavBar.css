@@ -1,1 +1,27 @@
-.NavBar {}
+.NavBar {
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    width: 100vw;
+    height: 75px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.navLogo {
+    height: 100%;
+    display: inline;
+    cursor: pointer;
+}
+
+.navButton {
+    display: inline;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.navButton:hover {
+    background-color: rgb(61, 61, 61);
+}

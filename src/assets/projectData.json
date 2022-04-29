@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "My Portfolio",
-            "path": "project/portfolio",
+            "path": "project?id=portfolio",
             "shortDesc":"This website, including the sorting functionality, routing, generating pages from a JSON file, and more.",
             "longDesc":"",
             "tags": [
@@ -13,11 +13,12 @@
                 "Git"
             ],
             "shortTags": 2,
-            "icon": "RM-Logo.png"
+            "icon": "RM-Logo.png",
+            "images": []
         },
         {
             "name": "Doortal",
-            "path": "project/doortal",
+            "path": "project?id=doortal",
             "shortDesc":"A puzzle game that bends reality. What is on the other side of a door depends on what shape you put in.",
             "longDesc":"",
             "tags": [
@@ -28,11 +29,15 @@
                 "Git"
             ],
             "shortTags": 3,
-            "icon": "DoortalLogo.png"
+            "icon": "DoortalLogo.png",
+            "images": [{
+                "path": "DoortalLogo.png",
+                "caption": "Doortal Logo"
+            }]
         },
         {
             "name": "UN Committee Assigner",
-            "path": "project/un-committee-assigner",
+            "path": "project?id=un-committee-assigner",
             "shortDesc":"A program that accepts TSV files and assigns delegates to committies.",
             "longDesc":"",
             "tags": [
@@ -43,11 +48,12 @@
                 "Git"
             ],
             "shortTags": 2,
-            "icon": ""
+            "icon": "",
+            "images": []
         },
         {
             "name": "Code Collab",
-            "path": "project/code-collab",
+            "path": "project?id=code-collab",
             "shortDesc":"A website where users can upload code and get live feedback from others.",
             "longDesc":"",
             "tags": [
@@ -61,7 +67,8 @@
                 "Git"
             ],
             "shortTags": 3,
-            "icon": "CodeCollabLogo.png"
+            "icon": "CodeCollabLogo.png",
+            "images": []
         }
     ],
     "projectTypes": [
