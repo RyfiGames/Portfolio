@@ -106,7 +106,28 @@ class Home extends Component {
                         'Ryan Magilton',
                         'Computer Science, Game Development, Web Development'
                     ]}
-                    links={[]} />
+                    links={[
+                        {
+                            name: 'Resume',
+                            icon: 'RM-Logo-TP.png',
+                            url: 'https://ryanmagilton.com/resume/'
+                        },
+                        {
+                            name: 'GitHub',
+                            icon: 'github.png',
+                            url: 'https://github.com/RyfiGames'
+                        },
+                        {
+                            name: 'LinkedIn',
+                            icon: 'linkedin.png',
+                            url: 'https://www.linkedin.com/in/ryan-magilton-519500225/'
+                        },
+                        {
+                            name: 'Itch',
+                            icon: 'itch.png',
+                            url: 'https://ryfi.itch.io/'
+                        },
+                    ]} />
                 <h1>My Work</h1>
                 {/* <div className='sortHeader'>Sort By:</div>
                 <div className='sortTags'>

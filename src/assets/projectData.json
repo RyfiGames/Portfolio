@@ -14,7 +14,8 @@
             ],
             "shortTags": 2,
             "icon": "RM-Logo.png",
-            "images": []
+            "images": [],
+            "links": []
         },
         {
             "name": "Doortal",
@@ -33,7 +34,14 @@
             "images": [{
                 "path": "DoortalLogo.png",
                 "caption": "Doortal Logo"
-            }]
+            }],
+            "links": [
+                {
+                    "name": "Play Game",
+                    "icon": "itch.png",
+                    "url": "https://ryfi.itch.io/doortal"
+                }
+            ]
         },
         {
             "name": "UN Committee Assigner",
@@ -49,7 +57,8 @@
             ],
             "shortTags": 2,
             "icon": "",
-            "images": []
+            "images": [],
+            "links": []
         },
         {
             "name": "Code Collab",
@@ -68,7 +77,8 @@
             ],
             "shortTags": 3,
             "icon": "CodeCollabLogo.png",
-            "images": []
+            "images": [],
+            "links": []
         }
     ],
     "projectTypes": [

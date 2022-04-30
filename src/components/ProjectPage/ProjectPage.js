@@ -41,7 +41,7 @@ const ProjectPage = (props) => {
           project.name,
           ''
         ]}
-        links={[]} />
+        links={project.links} />
       <div className='spacer'></div>
       <div className='header'>About { project.name }</div>
       <div className='projDesc'>{project.shortDesc}</div>
