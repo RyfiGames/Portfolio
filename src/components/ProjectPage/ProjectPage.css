@@ -69,3 +69,12 @@
     color: white;
     font-size: x-large;
 }
+
+.projectVideoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.projectVideo {
+    border: none;
+}

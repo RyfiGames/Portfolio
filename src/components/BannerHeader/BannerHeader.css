@@ -35,12 +35,19 @@
   display: flex;
   gap: 15px;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .bannerLink {
   background-color: #357CFF;
   border-radius: 25px;
   padding: 6px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerLinkCont {
   color: white;
   font-size: 25px;
   cursor: pointer;
@@ -53,4 +60,31 @@
   height: 28px;
   padding: 0px 5px 0px 0px;
   margin: 0px;
+}
+
+.bannerLink .linkTooltip {
+  visibility: hidden;
+  position: absolute;
+  background-color: #272727;
+  border-radius: 25px;
+  padding: 6px 15px;
+  margin: auto;
+  font-size: medium;
+  top: 50px;
+  /* transform: translate(50%, 0px); */
+}
+
+.bannerLink:hover .linkTooltip {
+  visibility: visible;
+}
+
+.bannerLink .linkTooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #272727 transparent;
 }

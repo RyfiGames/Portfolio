@@ -110,7 +110,7 @@ class Home extends Component {
                         {
                             name: 'Resume',
                             icon: 'RM-Logo-TP.png',
-                            url: 'https://ryanmagilton.com/resume/'
+                            url: '+'
                         },
                         {
                             name: 'GitHub',

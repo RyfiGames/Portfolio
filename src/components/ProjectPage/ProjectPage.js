@@ -12,6 +12,7 @@ import NavBar from '../NavBar/NavBar';
 const ProjectPage = (props) => {
   let tagsListDOM = [];
   let imagesDOM = [];
+  let videoDOM = null;
 
   const projName = (new URLSearchParams(window.location.search)).get('id');
   let project = util.getProjectByID(projName);
@@ -30,6 +31,22 @@ const ProjectPage = (props) => {
     );
   }
 
+  if (project.video != "") {
+    videoDOM = (
+      <div>
+        <div className='projectVideoContainer'>
+          <iframe width="640" height="360"
+            src={`https://www.youtube.com/embed/${project.video}`}
+            allow="fullscreen;"
+            className='projectVideo'
+          >
+          </iframe>
+        </div>
+        <div className='spacer'></div>
+      </div>
+    )
+  }
+
   return (
     <div className="ProjectPage">
       <NavBar />
@@ -43,8 +60,9 @@ const ProjectPage = (props) => {
         ]}
         links={project.links} />
       <div className='spacer'></div>
+      {videoDOM}
       <div className='header'>About { project.name }</div>
-      <div className='projDesc'>{project.shortDesc}</div>
+      <div className='projDesc'>{project.longDesc}</div>
       <div className='spacer'></div>
       <div className='header'>Technologies in This Project</div>
       <div className='projectTags'>
