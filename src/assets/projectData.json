@@ -1,10 +1,64 @@
 {
     "projects": [
         {
+            "name": "Code Collab",
+            "path": "project?id=code-collab",
+            "shortDesc":"A website where users can upload code and get live feedback from others.",
+            "longDesc":"Code Collab is a website where users can upload code and get live feedback from other users. The site has a live chat and a comment system similar to Google docs. Users use Oauth to login with Google. The documents had shareable links that were copied at the click of a button, and a 404 page when a user tried to access and invalid page. I built this website with a team in my Web Development class. We used Angular for the front end, Express for the backend, MongoDB and mongoose for the database, and AWS for hosting.",
+            "tags": [
+                "Web Development",
+                "Angular",
+                "TypeScript",
+                "JavaScript",
+                "Websockets",
+                "ExpressJS",
+                "VS Code",
+                "Git"
+            ],
+            "shortTags": 3,
+            "icon": "CodeCollabLogo.png",
+            "images": [
+                {
+                    "path": "CodeCollab1.png",
+                    "caption": "The landing page."
+                },
+                {
+                    "path": "CodeCollab2.png",
+                    "caption": "A public list of uploaded documents, in order of most recent."
+                },
+                {
+                    "path": "CodeCollab3.png",
+                    "caption": "An example of the comment system. When commenting on a line it highlights blue, the yellow line shows when a user hovers over a comment."
+                },
+                {
+                    "path": "CodeCollab4.png",
+                    "caption": "A live chat between remote users using websockets."
+                },
+                {
+                    "path": "CodeCollab5.png",
+                    "caption": "The 404 page that shows when the user attempts to access an invalid page."
+                }
+                
+            ],
+            "links": [
+                {
+                    "name": "Code Collab",
+                    "icon": "CodeCollabLogo.png",
+                    "url": "https://codecollab.link/home"
+                },
+                {
+                    "name": "Source Code",
+                    "icon": "github.png",
+                    "url": "https://github.com/RyfiGames/CodeCollab"
+                }
+            ],
+            "video": "8Oql1KlLD8w"
+        },
+        {
             "name": "My Portfolio",
             "path": "project?id=portfolio",
             "shortDesc":"This website, including the sorting functionality, routing, generating pages from a JSON file, and more.",
-            "longDesc":"",
+            "longDesc":"I made this website from scratch using ReactJS and React Router DOM as bases. All of the other functionality including sorting on the home page, routing setup, and generating pages from a JSON file are written by me. I configured the nameserver records through CloudFlare, and hosted the site using GitHub Pages (simply because it is free). Additionally, all of the CSS and design choices are mine as well.",
             "tags": [
                 "Web Development",
                 "ReactJS",
@@ -14,15 +68,84 @@
             ],
             "shortTags": 2,
             "icon": "RM-Logo.png",
-            "images": [],
-            "links": [],
+            "images": [
+                {
+                    "path": "Portfolio1.png",
+                    "caption": "The landing page, which includes all of my projects and the ability to sort them by type."
+                },
+                {
+                    "path": "Portfolio2.png",
+                    "caption": "The JSON file that contains all the project data, which is dynamically loaded using ReactJS."
+                },
+                {
+                    "path": "Portfolio3.png",
+                    "caption": "A project page being loaded with the JSON file."
+                }
+            ],
+            "links": [
+                {
+                    "name":"Source Code",
+                    "icon":"github.png",
+                    "url":"https://github.com/RyfiGames/Portfolio"
+                }
+            ],
+            "video": ""
+        },
+        {
+            "name": "UN Committee Assigner",
+            "path": "project?id=un-committee-assigner",
+            "shortDesc":"A program that accepts TSV files and assigns delegates to committies.",
+            "longDesc":"This is a sample of my freelance work. My client came to me with an issue: they had a list of roles in different UN Committees, and a list of form results from schools ranking which committees they wanted to participate in. Assigning the students previously took a whole day of manual work, which my program can do in seconds with about 15 minutes of prep work. The program accepts two TSV files and creates one using data from both files. I used NodeJS to build the program, it runs in the console and has multiple options for how to run depending on what the admin wants, and can catch minor errors in formatting and fix them on the fly.",
+            "tags": [
+                "Application",
+                "NodeJS",
+                "JavaScript",
+                "VS Code",
+                "Git"
+            ],
+            "shortTags": 2,
+            "icon": "",
+            "images": [
+                {
+                    "path": "UNCA1.png",
+                    "caption": "The positions list TSV file as input."
+                },
+                {
+                    "path": "UNCA2.png",
+                    "caption": "The form responses TSV file as input."
+                },
+                {
+                    "path": "UNCA3.png",
+                    "caption": "The output assignments TSV file."
+                },
+                {
+                    "path": "UNCA4.png",
+                    "caption": "The program allowing the user to select options before running."
+                },
+                {
+                    "path": "UNCA5.png",
+                    "caption": "The program catching an issue and fixing it at runtime with user input."
+                },
+                {
+                    "path": "UNCA6.png",
+                    "caption": "The program detecting an infinite loop and making the user aware, and finishing the task with a path to the output file."
+                }
+            ],
+            "links": [
+                {
+                    "name": "Source Code",
+                    "icon": "github.png",
+                    "url": "-tooltip",
+                    "tooltip": "Available upon request"
+                }
+            ],
             "video": ""
         },
         {
             "name": "Doortal",
             "path": "project?id=doortal",
             "shortDesc":"A puzzle game that bends reality. What is on the other side of a door depends on what shape you put in.",
-            "longDesc":"",
+            "longDesc":"A puzzle game that bends reality. What is on the other side of a door depends on what shape you put in. This project was a challenge for me because I had to implement portals into a Unity game. On top of that, the puzzles I designed are quite interesting and required a lot of thought for me to make sure that players didn't soft-lock the game. Besides the music, the entire game was developed by myself, originally for a week-long game jam. Since then, there have been two minor updates, but the majority of the game was made entirely in one week. Doortal has about 1-2 hours of content in a first playthrough, and can be speedrun in about 10 minutes.",
             "tags": [
                 "Game Development",
                 "Unity3D",
@@ -32,10 +155,36 @@
             ],
             "shortTags": 3,
             "icon": "DoortalLogo.png",
-            "images": [{
-                "path": "DoortalLogo.png",
-                "caption": "Doortal Logo"
-            }],
+            "images": [
+                {
+                    "path": "Doortal1.png",
+                    "caption": "The game menu screen."
+                },
+                {
+                    "path": "Doortal2.png",
+                    "caption": "A Magic Door that changes its destination based on the shape thrown into it."
+                },
+                {
+                    "path": "Doortal3.png",
+                    "caption": "An in-game hint telling the player to try different shapes if they haven't already."
+                },
+                {
+                    "path": "Doortal4.png",
+                    "caption": "Sphere World - The Triathlon"
+                },
+                {
+                    "path": "Doortal5.png",
+                    "caption": "Pyramid World - Take Me With You"
+                },
+                {
+                    "path": "Doortal6.png",
+                    "caption": "Diamond World - The Collection"
+                },
+                {
+                    "path": "Doortal7.png",
+                    "caption": "The shelf where the player must collect all the different shapes to beat the game."
+                }
+            ],
             "links": [
                 {
                     "name": "Play Game",
@@ -50,45 +199,6 @@
                 }
             ],
             "video": "mIrA3w3sDSI"
-        },
-        {
-            "name": "UN Committee Assigner",
-            "path": "project?id=un-committee-assigner",
-            "shortDesc":"A program that accepts TSV files and assigns delegates to committies.",
-            "longDesc":"",
-            "tags": [
-                "Application",
-                "NodeJS",
-                "JavaScript",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 2,
-            "icon": "",
-            "images": [],
-            "links": [],
-            "video": ""
-        },
-        {
-            "name": "Code Collab",
-            "path": "project?id=code-collab",
-            "shortDesc":"A website where users can upload code and get live feedback from others.",
-            "longDesc":"",
-            "tags": [
-                "Web Development",
-                "Angular",
-                "TypeScript",
-                "JavaScript",
-                "Websockets",
-                "ExpressJS",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "CodeCollabLogo.png",
-            "images": [],
-            "links": [],
-            "video": ""
         }
     ],
     "projectTypes": [
@@ -105,7 +215,6 @@
         "Python",
         "Unity3D",
         "ReactJS",
-        "React Native",
         "Angular",
         "ExpressJS",
         "VS Code",

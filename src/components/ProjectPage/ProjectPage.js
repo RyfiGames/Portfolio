@@ -25,7 +25,7 @@ const ProjectPage = (props) => {
   for (let img of project.images) {
     imagesDOM.push(
       <div className='imageBox' key={img.path}>
-        <img src={'images/' + img.path} className='exImage'/>
+        <img src={'images/screenshots/' + img.path} className='exImage'/>
         <div className='caption'>{ img.caption }</div>
       </div>
     );
