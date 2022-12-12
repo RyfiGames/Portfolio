@@ -1,840 +1,833 @@
 {
-    "projects": [
-        {
-            "name": "Code Collab",
-            "path": "project?id=code-collab",
-            "shortDesc":"A website where users can upload code and get live feedback from others.",
-            "longDesc":"Code Collab is a website where users can upload code and get live feedback from other users. The site has a live chat and a comment system similar to Google docs. Users use Oauth to login with Google. The documents had shareable links that were copied at the click of a button, and a 404 page when a user tried to access and invalid page. I built this website with a team in my Web Development class. We used Angular for the front end, Express for the backend, MongoDB and mongoose for the database, and AWS for hosting.",
-            "tags": [
-                "Web Development",
-                "Angular",
-                "TypeScript",
-                "JavaScript",
-                "Websockets",
-                "ExpressJS",
-                "VS Code",
-                "Git",
-                "School Work"
-            ],
-            "shortTags": 3,
-            "icon": "CodeCollabLogo.png",
-            "images": [
-                {
-                    "path": "CodeCollab1.png",
-                    "caption": "The landing page."
-                },
-                {
-                    "path": "CodeCollab2.png",
-                    "caption": "A public list of uploaded documents, in order of most recent."
-                },
-                {
-                    "path": "CodeCollab3.png",
-                    "caption": "An example of the comment system. When commenting on a line it highlights blue, the yellow line shows when a user hovers over a comment."
-                },
-                {
-                    "path": "CodeCollab4.png",
-                    "caption": "A live chat between remote users using websockets."
-                },
-                {
-                    "path": "CodeCollab5.png",
-                    "caption": "The 404 page that shows when the user attempts to access an invalid page."
-                }
-                
-            ],
-            "links": [
-                {
-                    "name": "Code Collab",
-                    "icon": "CodeCollabLogo.png",
-                    "url": "https://codecollab.link/home"
-                },
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/CodeCollab"
-                }
-            ],
-            "video": "8Oql1KlLD8w"
-        },
-        {
-            "name": "My Portfolio",
-            "path": "project?id=portfolio",
-            "shortDesc":"This website, including the sorting functionality, routing, generating pages from a JSON file, and more.",
-            "longDesc":"I made this website from scratch using ReactJS and React Router DOM as bases. All of the other functionality including sorting on the home page, routing setup, and generating pages from a JSON file are written by me. I configured the nameserver records through CloudFlare, and hosted the site using GitHub Pages (simply because it is free). Additionally, all of the CSS and design choices are mine as well.",
-            "tags": [
-                "Web Development",
-                "ReactJS",
-                "JavaScript",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 2,
-            "icon": "RM-Logo.png",
-            "images": [
-                {
-                    "path": "Portfolio1.png",
-                    "caption": "The landing page, which includes all of my projects and the ability to sort them by type."
-                },
-                {
-                    "path": "Portfolio2.png",
-                    "caption": "The JSON file that contains all the project data, which is dynamically loaded using ReactJS."
-                },
-                {
-                    "path": "Portfolio3.png",
-                    "caption": "A project page being loaded with the JSON file."
-                }
-            ],
-            "links": [
-                {
-                    "name":"Source Code",
-                    "icon":"github.png",
-                    "url":"https://github.com/RyfiGames/Portfolio"
-                }
-            ],
-            "video": ""
-        },
-        {
-            "name": "UN Committee Assigner",
-            "path": "project?id=un-committee-assigner",
-            "shortDesc":"A program that accepts TSV files and assigns delegates to committies.",
-            "longDesc":"This is a sample of my freelance work. My client came to me with an issue: they had a list of roles in different UN Committees, and a list of form results from schools ranking which committees they wanted to participate in. Assigning the students previously took a whole day of manual work, which my program can do in seconds with about 15 minutes of prep work. The program accepts two TSV files and creates one using data from both files. I used NodeJS to build the program, it runs in the console and has multiple options for how to run depending on what the admin wants, and can catch minor errors in formatting and fix them on the fly.",
-            "tags": [
-                "Application",
-                "NodeJS",
-                "JavaScript",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 2,
-            "icon": "",
-            "images": [
-                {
-                    "path": "UNCA1.png",
-                    "caption": "The positions list TSV file as input."
-                },
-                {
-                    "path": "UNCA2.png",
-                    "caption": "The form responses TSV file as input."
-                },
-                {
-                    "path": "UNCA3.png",
-                    "caption": "The output assignments TSV file."
-                },
-                {
-                    "path": "UNCA4.png",
-                    "caption": "The program allowing the user to select options before running."
-                },
-                {
-                    "path": "UNCA5.png",
-                    "caption": "The program catching an issue and fixing it at runtime with user input."
-                },
-                {
-                    "path": "UNCA6.png",
-                    "caption": "The program detecting an infinite loop and making the user aware, and finishing the task with a path to the output file."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "-tooltip",
-                    "tooltip": "Available upon request"
-                }
-            ],
-            "video": ""
-        },
-        {
-            "name": "Doortal",
-            "path": "project?id=doortal",
-            "shortDesc":"A puzzle game that bends reality. What is on the other side of a door depends on what shape you put in.",
-            "longDesc":"A puzzle game that bends reality. What is on the other side of a door depends on what shape you put in. This project was a challenge for me because I had to implement portals into a Unity game. On top of that, the puzzles I designed are quite interesting and required a lot of thought for me to make sure that players didn't soft-lock the game. Besides the music, the entire game was developed by myself, originally for a week-long game jam. Since then, there have been two minor updates, but the majority of the game was made entirely in one week. Doortal has about 1-2 hours of content in a first playthrough, and can be speedrun in about 10 minutes.",
-            "tags": [
-                "Game Development",
-                "Unity3D",
-                "C#",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "DoortalLogo.png",
-            "images": [
-                {
-                    "path": "Doortal1.png",
-                    "caption": "The game menu screen."
-                },
-                {
-                    "path": "Doortal2.png",
-                    "caption": "A Magic Door that changes its destination based on the shape thrown into it."
-                },
-                {
-                    "path": "Doortal3.png",
-                    "caption": "An in-game hint telling the player to try different shapes if they haven't already."
-                },
-                {
-                    "path": "Doortal4.png",
-                    "caption": "Sphere World - The Triathlon"
-                },
-                {
-                    "path": "Doortal5.png",
-                    "caption": "Pyramid World - Take Me With You"
-                },
-                {
-                    "path": "Doortal6.png",
-                    "caption": "Diamond World - The Collection"
-                },
-                {
-                    "path": "Doortal7.png",
-                    "caption": "The shelf where the player must collect all the different shapes to beat the game."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Play Game",
-                    "icon": "itch.png",
-                    "url": "https://ryfi.itch.io/doortal"
-                },
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "-tooltip",
-                    "tooltip": "Available upon request"
-                }
-            ],
-            "video": "mIrA3w3sDSI"
-        },
-        {
-            "name": "Primetime",
-            "path": "project?id=primetime",
-            "shortDesc":"A horror game made for a university project.",
-            "longDesc":"Primetime is a university project that I made with a team of classmates. I worked majorly on the programming parts of this project while my teammates did art, sound, and story writing. The game features a custom event system for Unity so that we could structure the story however we wanted. Between watching TV, playing minigames, and interacting with dialogue there are several features that I custom-coded for this game. I even worked on a system for our team to write JSON files and import dialogue and other events directly into the game without writing extra code. There's even a functional smartphone interface within the game.",
-            "tags": [
-                "Game Development",
-                "Unity3D",
-                "C#",
-                "VS Code",
-                "Git",
-                "School Work"
-            ],
-            "shortTags": 3,
-            "icon": "PrimetimeLogo.png",
-            "images": [
-                {
-                    "path": "Primetime1.png",
-                    "caption": "The default gamestate in between events."
-                },
-                {
-                    "path": "Primetime6.png",
-                    "caption": "The game events JSON file that dictates the order of events in the game."
-                },
-                {
-                    "path": "Primetime2.png",
-                    "caption": "The dialogue system."
-                },
-                {
-                    "path": "Primetime5.png",
-                    "caption": "The JSON file that controls the dialogue system, allows for branching paths."
-                },
-                {
-                    "path": "Primetime3.png",
-                    "caption": "The text message system on the in-game phone."
-                },
-                {
-                    "path": "Primetime4.png",
-                    "caption": "The fishing minigame that lives on the in-game phone."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "-tooltip",
-                    "tooltip": "Available upon request"
-                }
-            ],
-            "video":"Vz7Uqsr_QAg"
-        },
-        {
-            "name": "Web Controllers",
-            "path": "project?id=web-controllers",
-            "shortDesc":"A system that allowed players to use a mobile phone or web browser as a controller for a Unity game.",
-            "longDesc":"My idea for this project is that a Unity game could be played by people using their phones as controllers. This project required me to make a backend server with websockets, and make a React Native app for the phone version, as well as learn WebRTC for the real-time communication. I created an API/SDK for the Unity version of the project as well. This project is unfinished.",
-            "tags": [
-                "Web Development",
-                "API",
-                "ReactJS",
-                "React Native",
-                "JavaScript",
-                "C#",
-                "Websockets",
-                "ExpressJS",
-                "WebRTC",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "",
-            "images": [
-                {
-                    "path": "WC1.png",
-                    "caption": "The controller on the website / app."
-                },
-                {
-                    "path": "WC2.png",
-                    "caption": "The Unity game displaying a code for players to connect to."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Backend Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/WebControllerWebsite"
-                },
-                {
-                    "name": "React Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/ReactControllerBare"
-                },
-                {
-                    "name": "Unity Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/UnityWebController"
-                }
-            ],
-            "video":""
-        },
-        {
-            "name": "WaterWiz",
-            "path": "project?id=waterwiz",
-            "shortDesc":"An award-winning website, WaterWiZ is a one-stop center of information for easy-access water statistics.",
-            "longDesc":"Water Wiz is a site that I made with a team for Philly Codefest 2021. WaterWiZ is a one-stop center of information for easy-access water statistics. Users in the Philadelphia area could check the quality of their water by water company. All of the data on the site was readily available online, but in long difficult to read reports. Our site made the data simple to read and easy to access. We won the \"Freshman Challenge\" award.",
-            "tags": [
-                "Web Development",
-                "JavaScript",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 2,
-            "icon": "WaterWizLogo.png",
-            "images": [
-                {
-                    "path": "waterwiz1.jpg",
-                    "caption": "The landing page of the website."
-                },
-                {
-                    "path": "waterwiz2.jpg",
-                    "caption": "A list of water suppliers we collected data on."
-                },
-                {
-                    "path": "waterwiz3.jpg",
-                    "caption": "The water data page."
-                },
-                {
-                    "path": "waterwiz4.jpg",
-                    "caption": "Graphs that display the data values and what they mean."
-                },
-                {
-                    "path": "waterwiz5.jpg",
-                    "caption": "Graphs that display the data values and what they mean."
-                },
-                {
-                    "path": "waterwiz6.jpg",
-                    "caption": "A map to show where water plants are so the user can find the one closest to them."
-                },
-                {
-                    "path": "waterwiz8.jpg",
-                    "caption": "A page listing contact information for the plants so the user can do their own research."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Devpost",
-                    "icon": "Devpost.jpg",
-                    "url": "https://devpost.com/software/renewable-energy-qtbya3"
-                },
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/Water-Wiz"
-                }
-            ],
-            "video":"KMJy3Ng6518"
-        },
-        {
-            "name": "Supermarket Squire",
-            "path": "project?id=supermarket-squire",
-            "shortDesc":"A foddian game about a kid in a shopping cart picking up groceries.",
-            "longDesc":"Supermarket Squire is a game I made in one week for the Ludwig Jam. The theme was to make a foddian game, basically a game that you can lose progress in easily. In the timespan I was challenged to design a fair but challenging level, create art, and of course program all the functionality for the game.",
-            "tags": [
-                "Game Development",
-                "Unity3D",
-                "C#",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "SMSLogo.png",
-            "images": [
-                {
-                    "path": "SMSss1.png",
-                    "caption": "A crossroads between two possible paths."
-                },
-                {
-                    "path": "SMSss2.png",
-                    "caption": "The shopping list."
-                },
-                {
-                    "path": "SMSss3.png",
-                    "caption": "The water trap."
-                },
-                {
-                    "path": "SMSss4.png",
-                    "caption": "The can stack trap."
-                },
-                {
-                    "path": "SMSss5.png",
-                    "caption": "The shopping cart trap."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Play Game",
-                    "icon": "itch.png",
-                    "url": "https://ryfi.itch.io/supermarket-squire"
-                },
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/Supermarket-Squire"
-                }
-            ],
-            "video":"XUfHwwYpsKQ"
-        },
-        {
-            "name": "DOOMino's Pizza",
-            "path": "project?id=doominos-pizza",
-            "shortDesc":"A short game about delivering a pizza to Satan.",
-            "longDesc":"DOOMino's pizza is a platformer/boss rush game that I made in 72 hours for the Ludum Dare game jam. I worked with a team of 3 others, one level designer, one artist, and one musician. The game includes 9 total levels, several boss fights, and lots of witty dialogue.",
-            "tags": [
-                "Game Development",
-                "Unity3D",
-                "C#",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "DoominosLogo.png",
-            "images": [
-                {
-                    "path": "Doominos1.png",
-                    "caption": "The intro cutscene."
-                },
-                {
-                    "path": "Doominos2.png",
-                    "caption": "The \"Lust\" bossfight."
-                },
-                {
-                    "path": "Doominos3.png",
-                    "caption": "A stealth-based level."
-                },
-                {
-                    "path": "Doominos4.png",
-                    "caption": "The \"Wrath\" bossfight."
-                },
-                {
-                    "path": "Doominos5.png",
-                    "caption": "The \"Fraud\" level."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Play Game",
-                    "icon": "itch.png",
-                    "url": "https://ryfi.itch.io/doominos-pizza"
-                },
-                {
-                    "name": "Ludum Dare",
-                    "icon": "LudumDare.png",
-                    "url": "https://ldjam.com/events/ludum-dare/48/doominos-pizza"
-                }
-            ],
-            "video":"IeS5pfx1akc"
-        },
-        {
-            "name": "Text 2 Sing",
-            "path": "project?id=text2sing",
-            "shortDesc":"A discord bot that reads lyrics from text chat and plays the audio clip in voice chat.",
-            "longDesc":"Text 2 Sing is a Discord bot that I wrote using the discord.js library and API. The bot read text from discord text channels, matched the text to a song lyric or sound effect, and then played that audio clip in a voice channel. The bot is a soundboard with a search function. This project challenged me to use APIs and data structures to build an efficient and functional bot.",
-            "tags": [
-                "API",
-                "JavaScript",
-                "discord.js",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "T2SLogo.png",
-            "images": [
-            ],
-            "links": [
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/Text2Sing-1.0"
-                }
-            ],
-            "video":"Bb_tQGf3YN4"
-        },
-        {
-            "name": "WandR",
-            "path": "project?id=wandr",
-            "shortDesc":"An award winning app that encourages people to go outside.",
-            "longDesc":"WandR is an app that I made with a group for a hackathon. The app was designed to motivate users to go outside and experience the world. The idea behind the app is that it records the distance you traveled from home, and allows you to post outdoor adventures, and read followed user's adventures from a feed. The app was built in Ionic with TypeScript, as well as Firebase for the backend. We won the \"Best Outdoor Hack\" award.",
-            "tags": [
-                "Application",
-                "Angular",
-                "TypeScript",
-                "Ionic",
-                "JavaScript",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "WandrLogo.jpeg",
-            "images": [
-                {
-                    "path": "wandr1.jpg",
-                    "caption": "The login screen."
-                },
-                {
-                    "path": "wandr3.jpg",
-                    "caption": "The landing page for new users."
-                },
-                {
-                    "path": "wandr4.jpg",
-                    "caption": "The home screen displaying today's progress."
-                },
-                {
-                    "path": "wandr5.jpg",
-                    "caption": "Pop-up explanations of the scores for new users."
-                },
-                {
-                    "path": "wandr6.jpg",
-                    "caption": "The feed where you can see the adventures of followed users."
-                },
-                {
-                    "path": "wandr7.jpg",
-                    "caption": "Your jounral which lists all of your recent adventures."
-                },
-                {
-                    "path": "wandr8.jpg",
-                    "caption": "Your user page for account management."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Devpost",
-                    "icon": "Devpost.jpg",
-                    "url": "https://devpost.com/software/wanderlust-ytzq9r"
-                },
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/wandR"
-                }
-            ],
-            "video":""
-        },
-        {
-            "name": "Beacon Brawl",
-            "path": "project?id=beacon-brawl",
-            "shortDesc":"A Minecraft minigame plugin, similar to BedWars.",
-            "longDesc":"Beacon Brawl is a Minecraft plugin I created as a clone of Hypixel's Bedwars, although it had my own twists and features. The gist of the gameplay was the same, players had to collect resources to help them fight other teams, and destroy their beacon so that they do not respawn, and the last team standing wins. I created the game as a learning exercise, and it strengthened my Java skills and taught me how to work with external libraries like Minecraft.",
-            "tags": [
-                "Game Development",
-                "Java",
-                "Eclipse",
-                "Git"
-            ],
-            "shortTags": 2,
-            "icon": "BeaconBrawlLogo.png",
-            "images": [
-                {
-                    "path": "beaconbrawl1.png",
-                    "caption": "The \"Mountains\" map."
-                },
-                {
-                    "path": "beaconbrawl2.png",
-                    "caption": "The \"Atlantis\" map."
-                },
-                {
-                    "path": "beaconbrawl3.png",
-                    "caption": "The \"Dimensions\" map."
-                }
-            ],
-            "links": [
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "https://github.com/RyfiGames/Beacon-Brawl-1.0"
-                }
-            ],
-            "video":"H_2Nw8KyKtY"
-        },
-        {
-            "name": "Bart's Eggs",
-            "path": "project?id=barts-eggs",
-            "shortDesc":"A mobile game. The goal of the game is to eat as many white eggs, while avoiding red eggs.",
-            "longDesc":"This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. In this game you control a fun character named Bart. The goal of the game is to eat as many white eggs, while avoiding red eggs. Sometimes, blue eggs and gold eggs can spawn to help you out.",
-            "tags": [
-                "Game Development",
-                "Application",
-                "Unity3D",
-                "C#",
-                "Firebase",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 4,
-            "icon": "Barts Eggs Logo Square.png",
-            "images": [
-            ],
-            "links": [
-                {
-                    "name": "Webpage",
-                    "icon": "Barts Eggs Logo Square.png",
-                    "url": "https://www.ryfigames.com/games/bartseggs"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "AppleLogo.jpg",
-                    "url": "https://apps.apple.com/us/app/id1529366273"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "PlayLogo.jpg",
-                    "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.BartsEggs"
-                }
-            ],
-            "video":"MxioxEJ5SnM"
-        },
-        {
-            "name": "Leaf Me Alone",
-            "path": "project?id=leafmealone",
-            "shortDesc":"A mobile game. The goal of the game is to clear your lawn before it is covered in leaves.",
-            "longDesc":"This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. It's fall again, and those pesky trees are filling your yard with leaves. It is your job to clear off your yard before it becomes impossible to walk through. Make sure to avoid the falling logs, and use as many power-ups as possible.",
-            "tags": [
-                "Game Development",
-                "Application",
-                "Unity3D",
-                "C#",
-                "Firebase",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 4,
-            "icon": "Leaf Me Alone Logo Square.png",
-            "images": [
-            ],
-            "links": [
-                {
-                    "name": "Webpage",
-                    "icon": "Leaf Me Alone Logo Square.png",
-                    "url": "https://www.ryfigames.com/games/leafmealone"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "AppleLogo.jpg",
-                    "url": "https://apps.apple.com/us/app/id1528896250"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "PlayLogo.jpg",
-                    "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.LeafMeAlone"
-                }
-            ],
-            "video":"vsllFsAkEEw"
-        },
-        {
-            "name": "Add n' Blast",
-            "path": "project?id=addnblast",
-            "shortDesc":"A mobile game. This is a live puzzle game similar to Tetris, but with a twist.",
-            "longDesc":"This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. Add n' Blast is a live puzzle. You must match blocks of the same color so that they merge, and then get points by blowing up a row. If you're lucky, you might just have an extra golden bomb that you can use to save yourself.",
-            "tags": [
-                "Game Development",
-                "Application",
-                "Unity3D",
-                "C#",
-                "Firebase",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 4,
-            "icon": "AddnBlast Logo Square.png",
-            "images": [
-            ],
-            "links": [
-                {
-                    "name": "Webpage",
-                    "icon": "AddnBlast Logo Square.png",
-                    "url": "https://www.ryfigames.com/games/addnblast"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "AppleLogo.jpg",
-                    "url": "https://apps.apple.com/us/app/id1529360204"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "PlayLogo.jpg",
-                    "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.AddnBlast"
-                }
-            ],
-            "video":"3KPFMupiTeM"
-        },
-        {
-            "name": "Hungee",
-            "path": "project?id=hungee",
-            "shortDesc":"A mobile game. A game about collecting pellets and avoiding enemies.",
-            "longDesc":"This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. This game is all about collecting food in an infinitely scrolling maze. Try to avoid the enemies while collecting all the food before it is lost. There are many cosmetic upgrades to collect.",
-            "tags": [
-                "Game Development",
-                "Application",
-                "Unity3D",
-                "C#",
-                "Firebase",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 4,
-            "icon": "Hungee Logo Square.png",
-            "images": [
-            ],
-            "links": [
-                {
-                    "name": "Webpage",
-                    "icon": "Hungee Logo Square.png",
-                    "url": "https://www.ryfigames.com/games/hungee"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "AppleLogo.jpg",
-                    "url": "https://apps.apple.com/us/app/id1529387545"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "PlayLogo.jpg",
-                    "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.Hungee"
-                }
-            ],
-            "video":"vpLbi1ECLCY"
-        },
-        {
-            "name": "Balloony",
-            "path": "project?id=balloony",
-            "shortDesc":"A mobile game. A game about keeping a balloon up at a birthday party with many traps.",
-            "longDesc":"This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. Welcome to Billy's birthday party, where saving a balloon means life or death. Try to keep the balloon off the ground for as long as possible, and avoid the many dangerous traps that appear. Keep many balloons alive to get a higher score.",
-            "tags": [
-                "Game Development",
-                "Application",
-                "Unity3D",
-                "C#",
-                "Firebase",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 4,
-            "icon": "Balloony Logo Square.png",
-            "images": [
-            ],
-            "links": [
-                {
-                    "name": "Webpage",
-                    "icon": "Balloony Logo Square.png",
-                    "url": "https://www.ryfigames.com/games/balloony"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "AppleLogo.jpg",
-                    "url": "https://apps.apple.com/us/app/id1529363742"
-                },
-                {
-                    "name": "Play Game",
-                    "icon": "PlayLogo.jpg",
-                    "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.Balloony"
-                }
-            ],
-            "video":"R29OBWkko7o"
-        },
-        {
-            "name": "Python Code",
-            "path": "project?id=python",
-            "shortDesc":"I have taken several classes that use the Python language.",
-            "longDesc":"I have taken several classes that use the Python language. The projects from these classes implement practical applications, object oriented programming and datastructures. School projects are not allowed to be in public repositories, but source code can be sent to employers if requested.",
-            "tags": [
-                "School Work",
-                "Python",
-                "Data Structures",
-                "Object Oriented",
-                "VS Code",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "pythonlogo.webp",
-            "images": [
-            ],
-            "links": [
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "-tooltip",
-                    "tooltip": "Available upon request"
-                }
-            ],
-            "video":""
-        },
-        {
-            "name": "Java Code",
-            "path": "project?id=java",
-            "shortDesc":"I have taken several classes that use the Java language.",
-            "longDesc":"I have taken several classes that use the Java language. The projects from these classes implement practical applications, test-driven development, and object oriented programming. School projects are not allowed to be in public repositories, but source code can be sent to employers if requested.",
-            "tags": [
-                "School Work",
-                "Java",
-                "TDD",
-                "Object Oriented",
-                "IntelliJ",
-                "Git"
-            ],
-            "shortTags": 3,
-            "icon": "java.jpg",
-            "images": [
-            ],
-            "links": [
-                {
-                    "name": "Source Code",
-                    "icon": "github.png",
-                    "url": "-tooltip",
-                    "tooltip": "Available upon request"
-                }
-            ],
-            "video":""
-        }
-    ],
-    "projectTypes": [
-        "Application",
-        "Game Development",
+  "projects": [
+    {
+      "name": "Code Collab",
+      "path": "project?id=code-collab",
+      "shortDesc": "A website where users can upload code and get live feedback from others.",
+      "longDesc": "Code Collab is a website where users can upload code and get live feedback from other users. The site has a live chat and a comment system similar to Google docs. Users use Oauth to login with Google. The documents had shareable links that were copied at the click of a button, and a 404 page when a user tried to access and invalid page. I built this website with a team in my Web Development class. We used Angular for the front end, Express for the backend, MongoDB and mongoose for the database, and AWS for hosting.",
+      "tags": [
         "Web Development",
-        "API",
-        "School Work"
-    ],
-    "tagsList": [
-        "C#",
-        "Java",
-        "JavaScript",
-        "Python",
-        "Unity3D",
-        "ReactJS",
         "Angular",
+        "TypeScript",
+        "JavaScript",
+        "Websockets",
+        "ExpressJS",
+        "VS Code",
+        "Git",
+        "School Work"
+      ],
+      "shortTags": 3,
+      "icon": "CodeCollabLogo.png",
+      "images": [
+        {
+          "path": "CodeCollab1.png",
+          "caption": "The landing page."
+        },
+        {
+          "path": "CodeCollab2.png",
+          "caption": "A public list of uploaded documents, in order of most recent."
+        },
+        {
+          "path": "CodeCollab3.png",
+          "caption": "An example of the comment system. When commenting on a line it highlights blue, the yellow line shows when a user hovers over a comment."
+        },
+        {
+          "path": "CodeCollab4.png",
+          "caption": "A live chat between remote users using websockets."
+        },
+        {
+          "path": "CodeCollab5.png",
+          "caption": "The 404 page that shows when the user attempts to access an invalid page."
+        }
+      ],
+      "links": [
+        {
+          "name": "Code Collab",
+          "icon": "CodeCollabLogo.png",
+          "url": "https://codecollab.link/home"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/CodeCollab"
+        }
+      ],
+      "video": "8Oql1KlLD8w"
+    },
+    {
+      "name": "Bargain Board Games",
+      "path": "project?id=bargain-board-games",
+      "shortDesc": "An e-commerce react website I made for a design class with a fully functional database.",
+      "longDesc": "I made this class for IDM363 - Interactive App Design. The class was focused on teaching ReactJS as well as good web development practices. Additionally, I used this class to learn Bootstrap to handle my CSS. For the final project we needed to make an e-commerce website that displayed a variety of products loaded from a database, which could be added to a cart, and also edited via the admin page. I used Firebase for the database, and Vercel to host the site.",
+      "tags": [
+        "Web Development",
+        "ReactJS",
+        "Firebase",
+        "Bootstrap",
+        "JavaScript",
         "VS Code",
         "Git"
-    ]
+      ],
+      "shortTags": 3,
+      "icon": "BBGLogo.png",
+      "images": [
+        {
+          "path": "BBG1.png",
+          "caption": "The landing page, which includes a list of featured games."
+        },
+        {
+          "path": "BBG2.png",
+          "caption": "The shop page, which includes a list of all games in the database."
+        },
+        {
+          "path": "BBG3.png",
+          "caption": "The game information page, with a longer description of the game and several other details loaded from the database."
+        },
+        {
+          "path": "BBG4.png",
+          "caption": "The shapping cart page, which includes a list of games the user added to their cart."
+        }
+      ],
+      "links": [
+        {
+          "name": "Bargain Board Games",
+          "icon": "BBGLogo.png",
+          "url": "https://idm363-ram498.vercel.app/"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/idm363-ram498"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "name": "My Portfolio",
+      "path": "project?id=portfolio",
+      "shortDesc": "This website, including the sorting functionality, routing, generating pages from a JSON file, and more.",
+      "longDesc": "I made this website from scratch using ReactJS and React Router DOM as bases. All of the other functionality including sorting on the home page, routing setup, and generating pages from a JSON file are written by me. I configured the nameserver records through CloudFlare, and hosted the site using GitHub Pages (simply because it is free). Additionally, all of the CSS and design choices are mine as well.",
+      "tags": ["Web Development", "ReactJS", "JavaScript", "VS Code", "Git"],
+      "shortTags": 2,
+      "icon": "RM-Logo.png",
+      "images": [
+        {
+          "path": "Portfolio1.png",
+          "caption": "The landing page, which includes all of my projects and the ability to sort them by type."
+        },
+        {
+          "path": "Portfolio2.png",
+          "caption": "The JSON file that contains all the project data, which is dynamically loaded using ReactJS."
+        },
+        {
+          "path": "Portfolio3.png",
+          "caption": "A project page being loaded with the JSON file."
+        }
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/Portfolio"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "name": "UN Committee Assigner",
+      "path": "project?id=un-committee-assigner",
+      "shortDesc": "A program that accepts TSV files and assigns delegates to committies.",
+      "longDesc": "This is a sample of my freelance work. My client came to me with an issue: they had a list of roles in different UN Committees, and a list of form results from schools ranking which committees they wanted to participate in. Assigning the students previously took a whole day of manual work, which my program can do in seconds with about 15 minutes of prep work. The program accepts two TSV files and creates one using data from both files. I used NodeJS to build the program, it runs in the console and has multiple options for how to run depending on what the admin wants, and can catch minor errors in formatting and fix them on the fly.",
+      "tags": ["Application", "NodeJS", "JavaScript", "VS Code", "Git"],
+      "shortTags": 2,
+      "icon": "",
+      "images": [
+        {
+          "path": "UNCA1.png",
+          "caption": "The positions list TSV file as input."
+        },
+        {
+          "path": "UNCA2.png",
+          "caption": "The form responses TSV file as input."
+        },
+        {
+          "path": "UNCA3.png",
+          "caption": "The output assignments TSV file."
+        },
+        {
+          "path": "UNCA4.png",
+          "caption": "The program allowing the user to select options before running."
+        },
+        {
+          "path": "UNCA5.png",
+          "caption": "The program catching an issue and fixing it at runtime with user input."
+        },
+        {
+          "path": "UNCA6.png",
+          "caption": "The program detecting an infinite loop and making the user aware, and finishing the task with a path to the output file."
+        }
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "name": "Doortal",
+      "path": "project?id=doortal",
+      "shortDesc": "A puzzle game that bends reality. What is on the other side of a door depends on what shape you put in.",
+      "longDesc": "A puzzle game that bends reality. What is on the other side of a door depends on what shape you put in. This project was a challenge for me because I had to implement portals into a Unity game. On top of that, the puzzles I designed are quite interesting and required a lot of thought for me to make sure that players didn't soft-lock the game. Besides the music, the entire game was developed by myself, originally for a week-long game jam. Since then, there have been two minor updates, but the majority of the game was made entirely in one week. Doortal has about 1-2 hours of content in a first playthrough, and can be speedrun in about 10 minutes.",
+      "tags": ["Game Development", "Unity3D", "C#", "VS Code", "Git"],
+      "shortTags": 3,
+      "icon": "DoortalLogo.png",
+      "images": [
+        {
+          "path": "Doortal1.png",
+          "caption": "The game menu screen."
+        },
+        {
+          "path": "Doortal2.png",
+          "caption": "A Magic Door that changes its destination based on the shape thrown into it."
+        },
+        {
+          "path": "Doortal3.png",
+          "caption": "An in-game hint telling the player to try different shapes if they haven't already."
+        },
+        {
+          "path": "Doortal4.png",
+          "caption": "Sphere World - The Triathlon"
+        },
+        {
+          "path": "Doortal5.png",
+          "caption": "Pyramid World - Take Me With You"
+        },
+        {
+          "path": "Doortal6.png",
+          "caption": "Diamond World - The Collection"
+        },
+        {
+          "path": "Doortal7.png",
+          "caption": "The shelf where the player must collect all the different shapes to beat the game."
+        }
+      ],
+      "links": [
+        {
+          "name": "Play Game",
+          "icon": "itch.png",
+          "url": "https://ryfi.itch.io/doortal"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": "mIrA3w3sDSI"
+    },
+    {
+      "name": "Primetime",
+      "path": "project?id=primetime",
+      "shortDesc": "A horror game made for a university project.",
+      "longDesc": "Primetime is a university project that I made with a team of classmates. I worked majorly on the programming parts of this project while my teammates did art, sound, and story writing. The game features a custom event system for Unity so that we could structure the story however we wanted. Between watching TV, playing minigames, and interacting with dialogue there are several features that I custom-coded for this game. I even worked on a system for our team to write JSON files and import dialogue and other events directly into the game without writing extra code. There's even a functional smartphone interface within the game.",
+      "tags": [
+        "Game Development",
+        "Unity3D",
+        "C#",
+        "VS Code",
+        "Git",
+        "School Work"
+      ],
+      "shortTags": 3,
+      "icon": "PrimetimeLogo.png",
+      "images": [
+        {
+          "path": "Primetime1.png",
+          "caption": "The default gamestate in between events."
+        },
+        {
+          "path": "Primetime6.png",
+          "caption": "The game events JSON file that dictates the order of events in the game."
+        },
+        {
+          "path": "Primetime2.png",
+          "caption": "The dialogue system."
+        },
+        {
+          "path": "Primetime5.png",
+          "caption": "The JSON file that controls the dialogue system, allows for branching paths."
+        },
+        {
+          "path": "Primetime3.png",
+          "caption": "The text message system on the in-game phone."
+        },
+        {
+          "path": "Primetime4.png",
+          "caption": "The fishing minigame that lives on the in-game phone."
+        }
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": "Vz7Uqsr_QAg"
+    },
+    {
+      "name": "Web Controllers",
+      "path": "project?id=web-controllers",
+      "shortDesc": "A system that allowed players to use a mobile phone or web browser as a controller for a Unity game.",
+      "longDesc": "My idea for this project is that a Unity game could be played by people using their phones as controllers. This project required me to make a backend server with websockets, and make a React Native app for the phone version, as well as learn WebRTC for the real-time communication. I created an API/SDK for the Unity version of the project as well. This project is unfinished.",
+      "tags": [
+        "Web Development",
+        "API",
+        "ReactJS",
+        "React Native",
+        "JavaScript",
+        "C#",
+        "Websockets",
+        "ExpressJS",
+        "WebRTC",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 3,
+      "icon": "",
+      "images": [
+        {
+          "path": "WC1.png",
+          "caption": "The controller on the website / app."
+        },
+        {
+          "path": "WC2.png",
+          "caption": "The Unity game displaying a code for players to connect to."
+        }
+      ],
+      "links": [
+        {
+          "name": "Backend Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/WebControllerWebsite"
+        },
+        {
+          "name": "React Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/ReactControllerBare"
+        },
+        {
+          "name": "Unity Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/UnityWebController"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "name": "WaterWiz",
+      "path": "project?id=waterwiz",
+      "shortDesc": "An award-winning website, WaterWiZ is a one-stop center of information for easy-access water statistics.",
+      "longDesc": "Water Wiz is a site that I made with a team for Philly Codefest 2021. WaterWiZ is a one-stop center of information for easy-access water statistics. Users in the Philadelphia area could check the quality of their water by water company. All of the data on the site was readily available online, but in long difficult to read reports. Our site made the data simple to read and easy to access. We won the \"Freshman Challenge\" award.",
+      "tags": ["Web Development", "JavaScript", "VS Code", "Git"],
+      "shortTags": 2,
+      "icon": "WaterWizLogo.png",
+      "images": [
+        {
+          "path": "waterwiz1.jpg",
+          "caption": "The landing page of the website."
+        },
+        {
+          "path": "waterwiz2.jpg",
+          "caption": "A list of water suppliers we collected data on."
+        },
+        {
+          "path": "waterwiz3.jpg",
+          "caption": "The water data page."
+        },
+        {
+          "path": "waterwiz4.jpg",
+          "caption": "Graphs that display the data values and what they mean."
+        },
+        {
+          "path": "waterwiz5.jpg",
+          "caption": "Graphs that display the data values and what they mean."
+        },
+        {
+          "path": "waterwiz6.jpg",
+          "caption": "A map to show where water plants are so the user can find the one closest to them."
+        },
+        {
+          "path": "waterwiz8.jpg",
+          "caption": "A page listing contact information for the plants so the user can do their own research."
+        }
+      ],
+      "links": [
+        {
+          "name": "Devpost",
+          "icon": "Devpost.jpg",
+          "url": "https://devpost.com/software/renewable-energy-qtbya3"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/Water-Wiz"
+        }
+      ],
+      "video": "KMJy3Ng6518"
+    },
+    {
+      "name": "Supermarket Squire",
+      "path": "project?id=supermarket-squire",
+      "shortDesc": "A foddian game about a kid in a shopping cart picking up groceries.",
+      "longDesc": "Supermarket Squire is a game I made in one week for the Ludwig Jam. The theme was to make a foddian game, basically a game that you can lose progress in easily. In the timespan I was challenged to design a fair but challenging level, create art, and of course program all the functionality for the game.",
+      "tags": ["Game Development", "Unity3D", "C#", "VS Code", "Git"],
+      "shortTags": 3,
+      "icon": "SMSLogo.png",
+      "images": [
+        {
+          "path": "SMSss1.png",
+          "caption": "A crossroads between two possible paths."
+        },
+        {
+          "path": "SMSss2.png",
+          "caption": "The shopping list."
+        },
+        {
+          "path": "SMSss3.png",
+          "caption": "The water trap."
+        },
+        {
+          "path": "SMSss4.png",
+          "caption": "The can stack trap."
+        },
+        {
+          "path": "SMSss5.png",
+          "caption": "The shopping cart trap."
+        }
+      ],
+      "links": [
+        {
+          "name": "Play Game",
+          "icon": "itch.png",
+          "url": "https://ryfi.itch.io/supermarket-squire"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/Supermarket-Squire"
+        }
+      ],
+      "video": "XUfHwwYpsKQ"
+    },
+    {
+      "name": "DOOMino's Pizza",
+      "path": "project?id=doominos-pizza",
+      "shortDesc": "A short game about delivering a pizza to Satan.",
+      "longDesc": "DOOMino's pizza is a platformer/boss rush game that I made in 72 hours for the Ludum Dare game jam. I worked with a team of 3 others, one level designer, one artist, and one musician. The game includes 9 total levels, several boss fights, and lots of witty dialogue.",
+      "tags": ["Game Development", "Unity3D", "C#", "VS Code", "Git"],
+      "shortTags": 3,
+      "icon": "DoominosLogo.png",
+      "images": [
+        {
+          "path": "Doominos1.png",
+          "caption": "The intro cutscene."
+        },
+        {
+          "path": "Doominos2.png",
+          "caption": "The \"Lust\" bossfight."
+        },
+        {
+          "path": "Doominos3.png",
+          "caption": "A stealth-based level."
+        },
+        {
+          "path": "Doominos4.png",
+          "caption": "The \"Wrath\" bossfight."
+        },
+        {
+          "path": "Doominos5.png",
+          "caption": "The \"Fraud\" level."
+        }
+      ],
+      "links": [
+        {
+          "name": "Play Game",
+          "icon": "itch.png",
+          "url": "https://ryfi.itch.io/doominos-pizza"
+        },
+        {
+          "name": "Ludum Dare",
+          "icon": "LudumDare.png",
+          "url": "https://ldjam.com/events/ludum-dare/48/doominos-pizza"
+        }
+      ],
+      "video": "IeS5pfx1akc"
+    },
+    {
+      "name": "Text 2 Sing",
+      "path": "project?id=text2sing",
+      "shortDesc": "A discord bot that reads lyrics from text chat and plays the audio clip in voice chat.",
+      "longDesc": "Text 2 Sing is a Discord bot that I wrote using the discord.js library and API. The bot read text from discord text channels, matched the text to a song lyric or sound effect, and then played that audio clip in a voice channel. The bot is a soundboard with a search function. This project challenged me to use APIs and data structures to build an efficient and functional bot.",
+      "tags": ["API", "JavaScript", "discord.js", "VS Code", "Git"],
+      "shortTags": 3,
+      "icon": "T2SLogo.png",
+      "images": [],
+      "links": [
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/Text2Sing-1.0"
+        }
+      ],
+      "video": "Bb_tQGf3YN4"
+    },
+    {
+      "name": "WandR",
+      "path": "project?id=wandr",
+      "shortDesc": "An award winning app that encourages people to go outside.",
+      "longDesc": "WandR is an app that I made with a group for a hackathon. The app was designed to motivate users to go outside and experience the world. The idea behind the app is that it records the distance you traveled from home, and allows you to post outdoor adventures, and read followed user's adventures from a feed. The app was built in Ionic with TypeScript, as well as Firebase for the backend. We won the \"Best Outdoor Hack\" award.",
+      "tags": [
+        "Application",
+        "Angular",
+        "TypeScript",
+        "Ionic",
+        "JavaScript",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 3,
+      "icon": "WandrLogo.jpeg",
+      "images": [
+        {
+          "path": "wandr1.jpg",
+          "caption": "The login screen."
+        },
+        {
+          "path": "wandr3.jpg",
+          "caption": "The landing page for new users."
+        },
+        {
+          "path": "wandr4.jpg",
+          "caption": "The home screen displaying today's progress."
+        },
+        {
+          "path": "wandr5.jpg",
+          "caption": "Pop-up explanations of the scores for new users."
+        },
+        {
+          "path": "wandr6.jpg",
+          "caption": "The feed where you can see the adventures of followed users."
+        },
+        {
+          "path": "wandr7.jpg",
+          "caption": "Your jounral which lists all of your recent adventures."
+        },
+        {
+          "path": "wandr8.jpg",
+          "caption": "Your user page for account management."
+        }
+      ],
+      "links": [
+        {
+          "name": "Devpost",
+          "icon": "Devpost.jpg",
+          "url": "https://devpost.com/software/wanderlust-ytzq9r"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/wandR"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "name": "Beacon Brawl",
+      "path": "project?id=beacon-brawl",
+      "shortDesc": "A Minecraft minigame plugin, similar to BedWars.",
+      "longDesc": "Beacon Brawl is a Minecraft plugin I created as a clone of Hypixel's Bedwars, although it had my own twists and features. The gist of the gameplay was the same, players had to collect resources to help them fight other teams, and destroy their beacon so that they do not respawn, and the last team standing wins. I created the game as a learning exercise, and it strengthened my Java skills and taught me how to work with external libraries like Minecraft.",
+      "tags": ["Game Development", "Java", "Eclipse", "Git"],
+      "shortTags": 2,
+      "icon": "BeaconBrawlLogo.png",
+      "images": [
+        {
+          "path": "beaconbrawl1.png",
+          "caption": "The \"Mountains\" map."
+        },
+        {
+          "path": "beaconbrawl2.png",
+          "caption": "The \"Atlantis\" map."
+        },
+        {
+          "path": "beaconbrawl3.png",
+          "caption": "The \"Dimensions\" map."
+        }
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "https://github.com/RyfiGames/Beacon-Brawl-1.0"
+        }
+      ],
+      "video": "H_2Nw8KyKtY"
+    },
+    {
+      "name": "Bart's Eggs",
+      "path": "project?id=barts-eggs",
+      "shortDesc": "A mobile game. The goal of the game is to eat as many white eggs, while avoiding red eggs.",
+      "longDesc": "This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. In this game you control a fun character named Bart. The goal of the game is to eat as many white eggs, while avoiding red eggs. Sometimes, blue eggs and gold eggs can spawn to help you out.",
+      "tags": [
+        "Game Development",
+        "Application",
+        "Unity3D",
+        "C#",
+        "Firebase",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 4,
+      "icon": "Barts Eggs Logo Square.png",
+      "images": [],
+      "links": [
+        {
+          "name": "Webpage",
+          "icon": "Barts Eggs Logo Square.png",
+          "url": "https://www.ryfigames.com/games/bartseggs"
+        },
+        {
+          "name": "Play Game",
+          "icon": "AppleLogo.jpg",
+          "url": "https://apps.apple.com/us/app/id1529366273"
+        },
+        {
+          "name": "Play Game",
+          "icon": "PlayLogo.jpg",
+          "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.BartsEggs"
+        }
+      ],
+      "video": "MxioxEJ5SnM"
+    },
+    {
+      "name": "Leaf Me Alone",
+      "path": "project?id=leafmealone",
+      "shortDesc": "A mobile game. The goal of the game is to clear your lawn before it is covered in leaves.",
+      "longDesc": "This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. It's fall again, and those pesky trees are filling your yard with leaves. It is your job to clear off your yard before it becomes impossible to walk through. Make sure to avoid the falling logs, and use as many power-ups as possible.",
+      "tags": [
+        "Game Development",
+        "Application",
+        "Unity3D",
+        "C#",
+        "Firebase",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 4,
+      "icon": "Leaf Me Alone Logo Square.png",
+      "images": [],
+      "links": [
+        {
+          "name": "Webpage",
+          "icon": "Leaf Me Alone Logo Square.png",
+          "url": "https://www.ryfigames.com/games/leafmealone"
+        },
+        {
+          "name": "Play Game",
+          "icon": "AppleLogo.jpg",
+          "url": "https://apps.apple.com/us/app/id1528896250"
+        },
+        {
+          "name": "Play Game",
+          "icon": "PlayLogo.jpg",
+          "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.LeafMeAlone"
+        }
+      ],
+      "video": "vsllFsAkEEw"
+    },
+    {
+      "name": "Add n' Blast",
+      "path": "project?id=addnblast",
+      "shortDesc": "A mobile game. This is a live puzzle game similar to Tetris, but with a twist.",
+      "longDesc": "This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. Add n' Blast is a live puzzle. You must match blocks of the same color so that they merge, and then get points by blowing up a row. If you're lucky, you might just have an extra golden bomb that you can use to save yourself.",
+      "tags": [
+        "Game Development",
+        "Application",
+        "Unity3D",
+        "C#",
+        "Firebase",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 4,
+      "icon": "AddnBlast Logo Square.png",
+      "images": [],
+      "links": [
+        {
+          "name": "Webpage",
+          "icon": "AddnBlast Logo Square.png",
+          "url": "https://www.ryfigames.com/games/addnblast"
+        },
+        {
+          "name": "Play Game",
+          "icon": "AppleLogo.jpg",
+          "url": "https://apps.apple.com/us/app/id1529360204"
+        },
+        {
+          "name": "Play Game",
+          "icon": "PlayLogo.jpg",
+          "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.AddnBlast"
+        }
+      ],
+      "video": "3KPFMupiTeM"
+    },
+    {
+      "name": "Hungee",
+      "path": "project?id=hungee",
+      "shortDesc": "A mobile game. A game about collecting pellets and avoiding enemies.",
+      "longDesc": "This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. This game is all about collecting food in an infinitely scrolling maze. Try to avoid the enemies while collecting all the food before it is lost. There are many cosmetic upgrades to collect.",
+      "tags": [
+        "Game Development",
+        "Application",
+        "Unity3D",
+        "C#",
+        "Firebase",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 4,
+      "icon": "Hungee Logo Square.png",
+      "images": [],
+      "links": [
+        {
+          "name": "Webpage",
+          "icon": "Hungee Logo Square.png",
+          "url": "https://www.ryfigames.com/games/hungee"
+        },
+        {
+          "name": "Play Game",
+          "icon": "AppleLogo.jpg",
+          "url": "https://apps.apple.com/us/app/id1529387545"
+        },
+        {
+          "name": "Play Game",
+          "icon": "PlayLogo.jpg",
+          "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.Hungee"
+        }
+      ],
+      "video": "vpLbi1ECLCY"
+    },
+    {
+      "name": "Balloony",
+      "path": "project?id=balloony",
+      "shortDesc": "A mobile game. A game about keeping a balloon up at a birthday party with many traps.",
+      "longDesc": "This is one of my highschool game projects. The app is on both Apple and Android app stores and contains in-app purchases. There is also a global leaderboard. Welcome to Billy's birthday party, where saving a balloon means life or death. Try to keep the balloon off the ground for as long as possible, and avoid the many dangerous traps that appear. Keep many balloons alive to get a higher score.",
+      "tags": [
+        "Game Development",
+        "Application",
+        "Unity3D",
+        "C#",
+        "Firebase",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 4,
+      "icon": "Balloony Logo Square.png",
+      "images": [],
+      "links": [
+        {
+          "name": "Webpage",
+          "icon": "Balloony Logo Square.png",
+          "url": "https://www.ryfigames.com/games/balloony"
+        },
+        {
+          "name": "Play Game",
+          "icon": "AppleLogo.jpg",
+          "url": "https://apps.apple.com/us/app/id1529363742"
+        },
+        {
+          "name": "Play Game",
+          "icon": "PlayLogo.jpg",
+          "url": "https://play.google.com/store/apps/details?id=com.RyfiGames.Balloony"
+        }
+      ],
+      "video": "R29OBWkko7o"
+    },
+    {
+      "name": "Python Code",
+      "path": "project?id=python",
+      "shortDesc": "I have taken several classes that use the Python language.",
+      "longDesc": "I have taken several classes that use the Python language. The projects from these classes implement practical applications, object oriented programming and datastructures. School projects are not allowed to be in public repositories, but source code can be sent to employers if requested.",
+      "tags": [
+        "School Work",
+        "Python",
+        "Data Structures",
+        "Object Oriented",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 3,
+      "icon": "pythonlogo.webp",
+      "images": [],
+      "links": [
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "name": "Java Code",
+      "path": "project?id=java",
+      "shortDesc": "I have taken several classes that use the Java language.",
+      "longDesc": "I have taken several classes that use the Java language. The projects from these classes implement practical applications, test-driven development, and object oriented programming. School projects are not allowed to be in public repositories, but source code can be sent to employers if requested.",
+      "tags": [
+        "School Work",
+        "Java",
+        "TDD",
+        "Object Oriented",
+        "IntelliJ",
+        "Git"
+      ],
+      "shortTags": 3,
+      "icon": "java.jpg",
+      "images": [],
+      "links": [
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": ""
+    }
+  ],
+  "projectTypes": [
+    "Application",
+    "Game Development",
+    "Web Development",
+    "API",
+    "School Work"
+  ],
+  "tagsList": [
+    "C#",
+    "Java",
+    "JavaScript",
+    "Python",
+    "Unity3D",
+    "ReactJS",
+    "Angular",
+    "VS Code",
+    "Git"
+  ]
 }
