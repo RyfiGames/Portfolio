@@ -1,32 +1,43 @@
-import './App.css';
-import React from 'react';
-import { Route, Routes, BrowserRouter, useParams, useSearchParams } from "react-router-dom";
-import Home from './components/Home/Home';
-import Contact from './components/Contact/Contact';
-import Resume from './components/Resume/Resume';
-import ProjectPage from './components/ProjectPage/ProjectPage';
+import "./App.css";
+import React from "react";
+import {
+  Route,
+  Routes,
+  BrowserRouter,
+  useParams,
+  useSearchParams,
+} from "react-router-dom";
+import Home from "./components/Home/Home";
+import Contact from "./components/Contact/Contact";
+import Resume from "./components/Resume/Resume";
+import ProjectPage from "./components/ProjectPage/ProjectPage";
 
-import projectsData from './assets/projectData.json';
+import projectsData from "./assets/projectData.json";
+import { MobileHome } from "./components/MobileHome/MobileHome";
 
 class App extends React.Component {
   render() {
+    let width = window.innerWidth;
     document.title = "Ryan Magilton";
-      return (
-        <BrowserRouter>
-            <Routes>
-                <Route exact path="/" element={ <Home /> }>
-                </Route>
-                <Route exact path="/home" element={ <Home /> }>
-                </Route>
-                <Route path="/contact" element={ <Contact /> }>
-                </Route>
-                <Route path="/resume" element={ <Resume /> }>
-                </Route>
-                <Route path="/project" element={ <ProjectPage /> }>
-                </Route>
-            </Routes>
-        </BrowserRouter>
-      );
+    return (
+      <BrowserRouter>
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={width > 650 ? <Home /> : <MobileHome />}
+          ></Route>
+          <Route
+            exact
+            path="/home"
+            element={width > 650 ? <Home /> : <MobileHome />}
+          ></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/resume" element={<Resume />}></Route>
+          <Route path="/project" element={<ProjectPage />}></Route>
+        </Routes>
+      </BrowserRouter>
+    );
   }
 }
 
@@ -42,7 +53,5 @@ function LoadProjectPage() {
     }
   }
 
-  return (
-    <ProjectPage project={ projectData } />
-  )
+  return <ProjectPage project={projectData} />;
 }
