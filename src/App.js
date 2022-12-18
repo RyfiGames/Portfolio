@@ -32,7 +32,6 @@ class App extends React.Component {
             path="/home"
             element={width > 650 ? <Home /> : <MobileHome />}
           ></Route>
-          <Route path="/contact" element={<Contact />}></Route>
           <Route path="/resume" element={<Resume />}></Route>
           <Route path="/project" element={<ProjectPage />}></Route>
         </Routes>
