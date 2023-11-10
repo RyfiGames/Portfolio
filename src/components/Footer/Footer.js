@@ -1,12 +1,14 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
-const email = 'ram498@drexel.edu';
+const email = "ryanmagilton@outlook.com";
 
 const Footer = () => (
-  <div className='footer'>
-    <div className='contact'>Get in touch at <a href={ 'mailto:' + email }>{ email }</a></div>
-    <div className='copyright'>© Ryan Magilton 2022</div>
+  <div className="footer">
+    <div className="contact">
+      Get in touch at <a href={"mailto:" + email}>{email}</a>
+    </div>
+    <div className="copyright">© Ryan Magilton 2023</div>
   </div>
 );
 

@@ -1,6 +1,80 @@
 {
   "projects": [
     {
+      "hidden": true,
+      "name": "Example Project",
+      "path": "project?id=projectid",
+      "shortDesc": "So that I can copy this later.",
+      "longDesc": "",
+      "tags": [],
+      "shortTags": 0,
+      "icon": "RM-Logo.png",
+      "images": [],
+      "links": [
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "name": "Bloomberg Senior Project",
+      "path": "project?id=bdvd-senior-project",
+      "shortDesc": "Worked with the Bloomberg Dividend Forecasting Product team to develop a solution for scraping PDF files easily.",
+      "longDesc": "Led a team of six developers in the successful development and implementation of a PDF file conversion application, utilizing Python, Express.js, and Docker. The application converts data from PDF files into user-friendly formats such as JSON and CSV.",
+      "tags": [
+        "API",
+        "Project Management",
+        "Python",
+        "ExpressJS",
+        "Docker",
+        "VS Code",
+        "Git",
+        "JIRA"
+      ],
+      "shortTags": 4,
+      "icon": "BloombergLogo.png",
+      "images": [],
+      "links": [],
+      "video": ""
+    },
+    {
+      "hidden": true,
+      "name": "Starworks Studios Website",
+      "path": "project?id=starworks",
+      "shortDesc": "A website built for a game studio with several features.",
+      "longDesc": "Starworks Studios is a team of game developers, many of whom are my friends. They contracted me to develop their website. The site is still under-construction (a demo is available for viewing). The site includes an administrator back-end for managing team member bios and blog posts, as well as collecting survey data from visitors. The back-end database required intricate security rules in firebase to ensure only team members are able to access data.",
+      "tags": [
+        "Web Development",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Firebase",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 3,
+      "icon": "starworksLogo.png",
+      "images": [],
+      "links": [
+        {
+          "name": "Demo Site",
+          "icon": "starworksLogo.png",
+          "url": "https://starworks.y33t.net/"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": ""
+    },
+    {
       "name": "Code Collab",
       "path": "project?id=code-collab",
       "shortDesc": "A website where users can upload code and get live feedback from others.",
@@ -58,10 +132,10 @@
       "name": "Bargain Board Games",
       "path": "project?id=bargain-board-games",
       "shortDesc": "An e-commerce react website I made for a design class with a fully functional database.",
-      "longDesc": "I made this class for IDM363 - Interactive App Design. The class was focused on teaching ReactJS as well as good web development practices. Additionally, I used this class to learn Bootstrap to handle my CSS. For the final project we needed to make an e-commerce website that displayed a variety of products loaded from a database, which could be added to a cart, and also edited via the admin page. I used Firebase for the database, and Vercel to host the site.",
+      "longDesc": "I made this class for IDM363 - Interactive App Design. The class was focused on teaching React as well as good web development practices. Additionally, I used this class to learn Bootstrap to handle my CSS. For the final project we needed to make an e-commerce website that displayed a variety of products loaded from a database, which could be added to a cart, and also edited via the admin page. I used Firebase for the database, and Vercel to host the site.",
       "tags": [
         "Web Development",
-        "ReactJS",
+        "React",
         "Firebase",
         "Bootstrap",
         "JavaScript",
@@ -106,8 +180,8 @@
       "name": "My Portfolio",
       "path": "project?id=portfolio",
       "shortDesc": "This website, including the sorting functionality, routing, generating pages from a JSON file, and more.",
-      "longDesc": "I made this website from scratch using ReactJS and React Router DOM as bases. All of the other functionality including sorting on the home page, routing setup, and generating pages from a JSON file are written by me. I configured the nameserver records through CloudFlare, and hosted the site using GitHub Pages (simply because it is free). Additionally, all of the CSS and design choices are mine as well.",
-      "tags": ["Web Development", "ReactJS", "JavaScript", "VS Code", "Git"],
+      "longDesc": "I made this website from scratch using React and React Router DOM as bases. All of the other functionality including sorting on the home page, routing setup, and generating pages from a JSON file are written by me. I configured the nameserver records through CloudFlare, and hosted the site using GitHub Pages (simply because it is free). Additionally, all of the CSS and design choices are mine as well.",
+      "tags": ["Web Development", "React", "JavaScript", "VS Code", "Git"],
       "shortTags": 2,
       "icon": "RM-Logo.png",
       "images": [
@@ -117,7 +191,7 @@
         },
         {
           "path": "Portfolio2.png",
-          "caption": "The JSON file that contains all the project data, which is dynamically loaded using ReactJS."
+          "caption": "The JSON file that contains all the project data, which is dynamically loaded using React."
         },
         {
           "path": "Portfolio3.png",
@@ -289,7 +363,7 @@
       "tags": [
         "Web Development",
         "API",
-        "ReactJS",
+        "React",
         "React Native",
         "JavaScript",
         "C#",
@@ -814,9 +888,9 @@
   ],
   "projectTypes": [
     "Application",
-    "Game Development",
     "Web Development",
     "API",
+    "Game Development",
     "School Work"
   ],
   "tagsList": [
@@ -825,7 +899,7 @@
     "JavaScript",
     "Python",
     "Unity3D",
-    "ReactJS",
+    "React",
     "Angular",
     "VS Code",
     "Git"
