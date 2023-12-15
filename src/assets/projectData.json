@@ -23,55 +23,20 @@
     {
       "name": "Bloomberg Senior Project",
       "path": "project?id=bdvd-senior-project",
-      "shortDesc": "Worked with the Bloomberg Dividend Forecasting Product team to develop a solution for scraping PDF files easily.",
-      "longDesc": "Led a team of six developers in the successful development and implementation of a PDF file conversion application, utilizing Python, Express.js, and Docker. The application converts data from PDF files into user-friendly formats such as JSON and CSV.",
+      "shortDesc": "Led a team of six developers developing a full-stack application to solve a problem for Bloomberg.",
+      "longDesc": "Led a team of six developers in the design, development, and implementation of a full-stack application. Acting as project manager, I was tasked with creating project timelines, planning sprints, assigning tasks, and ensuring timely delivery of milestones, on top of contributing to development of the application itself. I planned and conducted regular team meetings to ensure alignment with project goals, address challenges, and enhance overall team performance. We worked closely with Bloomberg to design a user-friendly solution to automate a tedious task, as well as establishing a comprehensive testing suite, including unit tests and end-to-end tests, and providing extensive documentation for ongoing and continued development. As the project was completed under NDA, I can not discuss implementation details.",
       "tags": [
-        "API",
+        "Application",
         "Project Management",
-        "Python",
-        "ExpressJS",
-        "Docker",
-        "VS Code",
-        "Git",
-        "JIRA"
-      ],
-      "shortTags": 4,
-      "icon": "BloombergLogo.png",
-      "images": [],
-      "links": [],
-      "video": ""
-    },
-    {
-      "hidden": true,
-      "name": "Starworks Studios Website",
-      "path": "project?id=starworks",
-      "shortDesc": "A website built for a game studio with several features.",
-      "longDesc": "Starworks Studios is a team of game developers, many of whom are my friends. They contracted me to develop their website. The site is still under-construction (a demo is available for viewing). The site includes an administrator back-end for managing team member bios and blog posts, as well as collecting survey data from visitors. The back-end database required intricate security rules in firebase to ensure only team members are able to access data.",
-      "tags": [
-        "Web Development",
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "Firebase",
+        "Full-Stack",
+        "JIRA",
         "VS Code",
         "Git"
       ],
       "shortTags": 3,
-      "icon": "starworksLogo.png",
+      "icon": "BloombergLogo.png",
       "images": [],
-      "links": [
-        {
-          "name": "Demo Site",
-          "icon": "starworksLogo.png",
-          "url": "https://starworks.y33t.net/"
-        },
-        {
-          "name": "Source Code",
-          "icon": "github.png",
-          "url": "-tooltip",
-          "tooltip": "Available upon request"
-        }
-      ],
+      "links": [],
       "video": ""
     },
     {
@@ -203,6 +168,60 @@
           "name": "Source Code",
           "icon": "github.png",
           "url": "https://github.com/RyfiGames/Portfolio"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "hidden": false,
+      "name": "Starworks Studios Website",
+      "path": "project?id=starworks",
+      "shortDesc": "A website built for a game studio with several features including an admin panel.",
+      "longDesc": "Starworks Studios is a team of game developers, many of whom are my friends. They contracted me to develop their website. The site is still under-construction. The site includes an administrator back-end for managing team member bios and blog posts, as well as collecting survey data from visitors. The back-end database required intricate security rules in firebase to ensure only team members are able to access data. I am working closely with the team; they provide me with designs and desired features and I work to implement them based off of their specifications.",
+      "tags": [
+        "Web Development",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Firebase",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 3,
+      "icon": "starworksLogo.png",
+      "images": [
+        {
+          "path": "SSW1.png",
+          "caption": "The landing page of the website."
+        },
+        {
+          "path": "SSW2.png",
+          "caption": "The \"About the Team\" page, fully customizable in the admin panel."
+        },
+        {
+          "path": "SSW3.png",
+          "caption": "Admin page for writing blog posts."
+        },
+        {
+          "path": "SSW4.png",
+          "caption": "Admin page for editing team member bios."
+        },
+        {
+          "path": "SSW5.png",
+          "caption": "Admin page for managing users."
+        }
+      ],
+      "links": [
+        {
+          "name": "Starworks Studios",
+          "icon": "starworksLogo.png",
+          "url": "https://www.starworks-studios.com/"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
         }
       ],
       "video": ""

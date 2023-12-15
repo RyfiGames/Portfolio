@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="contact">
       Get in touch at <a href={"mailto:" + email}>{email}</a>
     </div>
-    <div className="copyright">© Ryan Magilton 2023</div>
+    <div className="copyright">© Ryan Magilton {new Date().getFullYear()}</div>
   </div>
 );
 
