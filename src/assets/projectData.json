@@ -40,6 +40,53 @@
       "video": ""
     },
     {
+      "hidden": false,
+      "name": "Sentence Stories",
+      "path": "project?id=sentence-stories",
+      "shortDesc": "A collaborative storytelling platform where users build a story passage by passage.",
+      "longDesc": "This is a project from my advanced web development class. Due to the nature of the class, our task was to create a full-stack application using React as a front-end, a custom backend API, a database, and deployment. My part in the project was mostly backend; working with websockets, authentication, and API routes. I also managed deployment to a linux server, using Caddy as a proxy. Our database was managed by postgres. The site allows users to publish 200 words maximum per passage, and must wait for another user to add a passage before posting again. When the story hits its passage limit, it ends. Users can leave comments on specific passages which are highlighted when hovered over. With authentication, users can create private stories that are invite only. The app is well rounded and robust, and entirely hosted by me.",
+      "tags": [
+        "Web Development",
+        "Full-Stack",
+        "React",
+        "TypeScript",
+        "Websockets",
+        "ExpressJS",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 3,
+      "icon": "storyicon.png",
+      "images": [
+        {
+          "path": "SentenceStories1.png",
+          "caption": "The landing page."
+        },
+        {
+          "path": "SentenceStories2.png",
+          "caption": "The main menu."
+        },
+        {
+          "path": "SentenceStories3.png",
+          "caption": "A completed story."
+        }
+      ],
+      "links": [
+        {
+          "name": "Sentence Stories",
+          "icon": "storyicon.png",
+          "url": "https://storytime.y33t.net/mainMenu"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": ""
+    },
+    {
       "name": "Code Collab",
       "path": "project?id=code-collab",
       "shortDesc": "A website where users can upload code and get live feedback from others.",
@@ -83,7 +130,8 @@
         {
           "name": "Code Collab",
           "icon": "CodeCollabLogo.png",
-          "url": "https://codecollab.link/home"
+          "url": "-tooltip",
+          "tooltip": "Website is no longer hosted."
         },
         {
           "name": "Source Code",
