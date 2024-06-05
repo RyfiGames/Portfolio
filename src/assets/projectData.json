@@ -23,8 +23,8 @@
     {
       "name": "Bloomberg Senior Project",
       "path": "project?id=bdvd-senior-project",
-      "shortDesc": "Led a team of six developers developing a full-stack application to solve a problem for Bloomberg.",
-      "longDesc": "Led a team of six developers in the design, development, and implementation of a full-stack application. Acting as project manager, I was tasked with creating project timelines, planning sprints, assigning tasks, and ensuring timely delivery of milestones, on top of contributing to development of the application itself. I planned and conducted regular team meetings to ensure alignment with project goals, address challenges, and enhance overall team performance. We worked closely with Bloomberg to design a user-friendly solution to automate a tedious task, as well as establishing a comprehensive testing suite, including unit tests and end-to-end tests, and providing extensive documentation for ongoing and continued development. As the project was completed under NDA, I can not discuss implementation details.",
+      "shortDesc": "Third place winner for Drexel CCI senior projects. I acted as project manager, leading a team of six developers.",
+      "longDesc": "Drexel CCI 3rd Place Winner. I led a team of six developers in the design, development, and implementation of a full-stack application. Acting as project manager, I was tasked with creating project timelines, planning sprints, assigning tasks, and ensuring timely delivery of milestones, on top of contributing to development of the application itself. I planned and conducted regular team meetings to ensure alignment with project goals, address challenges, and enhance overall team performance. We worked closely with Bloomberg to design a user-friendly solution to automate a tedious task, as well as establishing a comprehensive testing suite, including unit tests and end-to-end tests, and providing extensive documentation for ongoing and continued development. As the project was completed under NDA, I can not discuss implementation details.",
       "tags": [
         "Application",
         "Project Management",
@@ -35,7 +35,12 @@
       ],
       "shortTags": 3,
       "icon": "BloombergLogo.png",
-      "images": [],
+      "images": [
+        {
+          "path": "SP-award.jpg",
+          "caption": "Third Place Award"
+        }
+      ],
       "links": [],
       "video": ""
     },
@@ -76,6 +81,43 @@
           "name": "Sentence Stories",
           "icon": "storyicon.png",
           "url": "https://storytime.y33t.net/mainMenu"
+        },
+        {
+          "name": "Source Code",
+          "icon": "github.png",
+          "url": "-tooltip",
+          "tooltip": "Available upon request"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "hidden": false,
+      "name": "Connections Helper",
+      "path": "project?id=nyt-connections-helper",
+      "shortDesc": "A simple tool to help with New York Times Connections puzzles.",
+      "longDesc": "A simple tool to help with New York Times Connections puzzles. Allows the user to put words into multiple categories, and black out squares they've already solved. There is a proxy server which automatically pulls the puzzle from the NYT website using their API so that the puzzles stay up to date. The proxy server also caches the results (for up to 10 days) so that it doesn't bombard the API with requests.",
+      "tags": [
+        "Web Development",
+        "React",
+        "TypeScript",
+        "ExpressJS",
+        "VS Code",
+        "Git"
+      ],
+      "shortTags": 3,
+      "icon": "NYT-Connections-Icon.svg",
+      "images": [
+        {
+          "path": "ConnectionsTool.png",
+          "caption": "The tool being used to solve a puzzle."
+        }
+      ],
+      "links": [
+        {
+          "name": "Connections Helper",
+          "icon": "NYT-Connections-Icon.svg",
+          "url": "https://nyt.y33t.net/"
         },
         {
           "name": "Source Code",
